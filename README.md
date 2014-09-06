@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/hyoklee/HDFCRAFT.svg?branch=master
+    :target: https://travis-ci.org/hyoklee/HDFCRAFT
+
 HDFCRAFT
 ========
 
@@ -25,5 +28,3 @@ Examples
 
 Conversion examples can be found inside the examples/ subdirectory.
 
-.. image:: https://travis-ci.org/hyoklee/HDFCRAFT.svg?branch=master
-    :target: https://travis-ci.org/hyoklee/HDFCRAFT
