@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package hdfcraft;
-// package org.hdfeos;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -23,17 +22,24 @@ public class Hdfcraft {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        try {
+        //try {
             // TODO code application logic here
             System.out.println("HDFCRAFT version 0.0.1\n");
             File levelDatFile = new File("level.dat");
-            try (NBTOutputStream out = new NBTOutputStream(new GZIPOutputStream(
-                    new FileOutputStream(levelDatFile)))) {
-                // out.writeTag(toNBT());
+            try {
+                NBTOutputStream out = new NBTOutputStream(new GZIPOutputStream(
+                        new FileOutputStream(levelDatFile)));
             }
-        }   catch (IOException ex) {
-            Logger.getLogger(Hdfcraft.class.getName()).log(Level.SEVERE, null, ex);
-        }
+            catch (IOException ex) {
+                Logger.getLogger(Hdfcraft.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            //try (NBTOutputStream out = new NBTOutputStream(new GZIPOutputStream(
+            //        new FileOutputStream(levelDatFile)))) {
+             //    out.writeTag(toNBT());
+            // }
+       // }    catch (IOException ex) {
+       //     Logger.getLogger(Hdfcraft.class.getName()).log(Level.SEVERE, null, ex);
+        // }
     }
     
 }
