@@ -26,27 +26,29 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import static hdfcraft.Constants.TILE_SIZE;
+import static hdfcraft.Constants.TILE_SIZE_MASK;
+import hdfcraft.Layer.DataSize;
+import static hdfcraft.Layer.DataSize.BYTE;
+import static hdfcraft.Layer.DataSize.NIBBLE;
 
+
+/*
 import org.pepsoft.util.MathUtils;
 import org.pepsoft.util.undo.BufferKey;
 import org.pepsoft.util.undo.UndoListener;
 import org.pepsoft.util.undo.UndoManager;
-import static org.pepsoft.worldpainter.Constants.TILE_SIZE;
 import org.pepsoft.worldpainter.gardenofeden.Seed;
 import org.pepsoft.worldpainter.layers.Layer;
-import org.pepsoft.worldpainter.layers.Layer.DataSize;
 
-import static org.pepsoft.worldpainter.Constants.TILE_SIZE_MASK;
-import org.pepsoft.worldpainter.layers.Biome;
 import org.pepsoft.worldpainter.layers.FloodWithLava;
-import static org.pepsoft.worldpainter.layers.Layer.DataSize.BYTE;
-import static org.pepsoft.worldpainter.layers.Layer.DataSize.NIBBLE;
+*/
 
 /**
  *
  * @author pepijn
  */
-public class Tile extends InstanceKeeper implements Serializable, UndoListener {
+public class Tile extends InstanceKeeper implements Serializable {
     public Tile(int x, int y, int maxHeight) {
         this(x, y, maxHeight, true);
     }
@@ -824,7 +826,6 @@ public class Tile extends InstanceKeeper implements Serializable, UndoListener {
 
     // UndoListener
 
-    @Override
     public synchronized void savePointArmed() {
         if (logger.isLoggable(Level.FINER)) {
             logger.finer("Save point armed; clearing writable buffers");
@@ -832,7 +833,6 @@ public class Tile extends InstanceKeeper implements Serializable, UndoListener {
         writeableBuffers.clear();
     }
 
-    @Override
     public synchronized void savePointCreated() {
         if (logger.isLoggable(Level.FINER)) {
             logger.finer("Save point created; clearing writable buffers");
@@ -840,12 +840,10 @@ public class Tile extends InstanceKeeper implements Serializable, UndoListener {
         writeableBuffers.clear();
     }
 
-    @Override
     public void undoPerformed() {
         // Do nothing
     }
 
-    @Override
     public void redoPerformed() {
         // Do nothing
     }
@@ -910,68 +908,11 @@ public class Tile extends InstanceKeeper implements Serializable, UndoListener {
 
 
     protected synchronized void ensureReadable(TileBuffer buffer) {
-        if ((undoManager != null) && (! readableBuffers.contains(buffer))) {
-            switch (buffer) {
-                case HEIGHTMAP:
-                    heightMap = undoManager.getBuffer(HEIGHTMAP_BUFFER_KEY);
-                    break;
-                case TALL_HEIGHTMAP:
-                    tallHeightMap = undoManager.getBuffer(TALL_HEIGHTMAP_BUFFER_KEY);
-                    break;
-                case TERRAIN:
-                    terrain = undoManager.getBuffer(TERRAIN_BUFFER_KEY);
-                    break;
-                case WATERLEVEL:
-                    waterLevel = undoManager.getBuffer(WATERLEVEL_BUFFER_KEY);
-                    break;
-                case TALL_WATERLEVEL:
-                    tallWaterLevel = undoManager.getBuffer(TALL_WATERLEVEL_BUFFER_KEY);
-                    break;
-                case LAYER_DATA:
-                    layerData = undoManager.getBuffer(LAYER_DATA_BUFFER_KEY);
-                    break;
-                case BIT_LAYER_DATA:
-                    bitLayerData = undoManager.getBuffer(BIT_LAYER_DATA_BUFFER_KEY);
-                    break;
-                case SEEDS:
-                    seeds = undoManager.getBuffer(SEEDS_BUFFER_KEY);
-                    break;
-            }
-            readableBuffers.add(buffer);
-        }
+
     }
 
     private void ensureWriteable(TileBuffer buffer) {
-        if ((undoManager != null) && (! writeableBuffers.contains(buffer))) {
-            switch (buffer) {
-                case HEIGHTMAP:
-                    heightMap = undoManager.getBufferForEditing(HEIGHTMAP_BUFFER_KEY);
-                    break;
-                case TALL_HEIGHTMAP:
-                    tallHeightMap = undoManager.getBufferForEditing(TALL_HEIGHTMAP_BUFFER_KEY);
-                    break;
-                case TERRAIN:
-                    terrain = undoManager.getBufferForEditing(TERRAIN_BUFFER_KEY);
-                    break;
-                case WATERLEVEL:
-                    waterLevel = undoManager.getBufferForEditing(WATERLEVEL_BUFFER_KEY);
-                    break;
-                case TALL_WATERLEVEL:
-                    tallWaterLevel = undoManager.getBufferForEditing(TALL_WATERLEVEL_BUFFER_KEY);
-                    break;
-                case LAYER_DATA:
-                    layerData = undoManager.getBufferForEditing(LAYER_DATA_BUFFER_KEY);
-                    break;
-                case BIT_LAYER_DATA:
-                    bitLayerData = undoManager.getBufferForEditing(BIT_LAYER_DATA_BUFFER_KEY);
-                    break;
-                case SEEDS:
-                    seeds = undoManager.getBufferForEditing(SEEDS_BUFFER_KEY);
-                    break;
-            }
-            readableBuffers.add(buffer);
-            writeableBuffers.add(buffer);
-        }
+
     }
 
     private void heightMapChanged() {
@@ -1081,6 +1022,7 @@ public class Tile extends InstanceKeeper implements Serializable, UndoListener {
         listeners = new ArrayList<Listener>();
         readableBuffers = EnumSet.allOf(TileBuffer.class);
         writeableBuffers = EnumSet.noneOf(TileBuffer.class);
+        /*
         HEIGHTMAP_BUFFER_KEY = new TileUndoBufferKey<short[]>(this, TileBuffer.HEIGHTMAP);
         TALL_HEIGHTMAP_BUFFER_KEY = new TileUndoBufferKey<int[]>(this, TileBuffer.TALL_HEIGHTMAP);
         TERRAIN_BUFFER_KEY = new TileUndoBufferKey<byte[]>(this, TileBuffer.TERRAIN);
@@ -1089,6 +1031,7 @@ public class Tile extends InstanceKeeper implements Serializable, UndoListener {
         LAYER_DATA_BUFFER_KEY = new TileUndoBufferKey<Map<Layer, byte[]>>(this, TileBuffer.LAYER_DATA);
         BIT_LAYER_DATA_BUFFER_KEY = new TileUndoBufferKey<Map<Layer, BitSet>>(this, TileBuffer.BIT_LAYER_DATA);
         SEEDS_BUFFER_KEY = new TileUndoBufferKey<HashSet<Seed>>(this, TileBuffer.SEEDS);
+        */
         dirtyLayers = new HashSet<Layer>();
         maxY = maxHeight - 1;
         
