@@ -13,6 +13,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
+import java.lang.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -32,32 +33,20 @@ import javax.imageio.stream.FileImageInputStream;
 import javax.imageio.stream.ImageInputStream;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
+import javax.vecmath.Point3i;
 
-import hdfcraft.worldpainter.layers.DeciduousForest;
-import hdfcraft.worldpainter.layers.FloodWithLava;
-import hdfcraft.worldpainter.layers.Frost;
-import hdfcraft.worldpainter.layers.GardenCategory;
-import hdfcraft.worldpainter.layers.Jungle;
-import hdfcraft.worldpainter.layers.PineForest;
-import hdfcraft.worldpainter.layers.Resources;
-import hdfcraft.worldpainter.layers.SwampLand;
-import hdfcraft.worldpainter.layers.exporters.ExporterSettings;
-import hdfcraft.worldpainter.layers.exporters.ResourcesExporter.ResourcesExporterSettings;
+import hdfcraft.ProgressReceiver.OperationCancelled;
+import hdfcraft.ResourcesExporter.ResourcesExporterSettings;
 
 import static hdfcraft.minecraft.Constants.*;
 import static hdfcraft.Constants.*;
 import static hdfcraft.AbstractMinecraft1_7BiomeScheme.*;
-import hdfcraft.worldpainter.biomeschemes.CustomBiome;
-import hdfcraft.worldpainter.layers.CustomLayer;
-import hdfcraft.worldpainter.layers.LayerContainer;
-import hdfcraft.worldpainter.layers.River;
-
 
 /**
  *
  * @author pepijn
  */
-public class Dimension extends InstanceKeeper implements TileProvider, Serializable, Tile.Listener, Cloneable {
+public class Dimension extends InstanceKeeper implements TileProvider, Serializable, Tile.Listener, java.lang.Cloneable {
     public Dimension(long minecraftSeed, TileFactory tileFactory, int dim, int maxHeight) {
         this(minecraftSeed, tileFactory, dim, maxHeight, true);
     }
@@ -362,7 +351,9 @@ public class Dimension extends InstanceKeeper implements TileProvider, Serializa
             throw new IllegalStateException("Tile not set");
         }
         final Tile tile = tiles.remove(coords);
-
+        if (undoManager != null) {
+            tile.unregister();
+        }
         tile.removeListener(this);
         // If the tile lies at the edge of the world it's possible the low and
         // high coordinate marks should change; so recalculate them in that case

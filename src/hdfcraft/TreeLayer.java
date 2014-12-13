@@ -8,10 +8,7 @@ package hdfcraft;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.Random;
-import org.pepsoft.util.PerlinNoise;
-import org.pepsoft.worldpainter.exporting.LayerExporter;
-import org.pepsoft.worldpainter.layers.exporters.TreesExporter;
-import org.pepsoft.worldpainter.layers.trees.TreeType;
+
 
 /**
  *
@@ -26,7 +23,7 @@ public abstract class TreeLayer<T extends TreeLayer> extends Layer {
         super(treeName, "Generate " + treeDescription, DataSize.NIBBLE, priority);
     }
 
-    @Override
+   // @Override
     public LayerExporter<TreeLayer<T>> getExporter() {
         return exporter;
     }

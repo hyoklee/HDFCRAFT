@@ -6,9 +6,6 @@
 package hdfcraft;
 
 import java.util.Random;
-import org.pepsoft.worldpainter.layers.trees.BirchTree;
-import org.pepsoft.worldpainter.layers.trees.OakTree;
-import org.pepsoft.worldpainter.layers.trees.TreeType;
 
 /**
  *

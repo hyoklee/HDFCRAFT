@@ -5,57 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8578b1b-593a-4784-b0f4-b100d0f3a374" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/AbstractBiomeScheme.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_7BiomeScheme.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/AbstractNBTItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/AttributeKeyVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Biome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/BiomeScheme.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Chest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Chunk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Cloneable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/CollectionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/ColourScheme.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/CoordinateTransform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/CustomTerrainHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Direction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Entity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/FloodWithLava.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Garden.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/HeightMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/HeightTransform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/IconUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/ImprovedNoise.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/InventoryItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/ItemContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Layer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Material.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/MathUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/MinecraftWorld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/MixedMaterial.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Mob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/NBTItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/NoiseHeightMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/NoiseSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Painting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/PerlinNoise.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/RandomField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Seed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Terrain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/TileEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/TileFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/TreeLayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Version.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/Villager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/minecraft/WallSign.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/level.dat" afterPath="$PROJECT_DIR$/level.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/AbstractLayerExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_2BiomeScheme.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/AbstractTileFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/BirchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/BitLayerRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/BufferKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Bush.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/ColourUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Cursor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/CustomBiome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/CustomLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/DeciduousTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/DeeplyCopyable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/DimensionSnapshot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/ExporterSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Filter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/FirstPassLayerExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Fixup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Frost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/GardenCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Generator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/HeightFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/HeightMapTileFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/IncidentalLayerExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Jungle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/JungleTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/LayerContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/LayerExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/LayerRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/MemoryUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/NibbleLayerRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/OakTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/PineForest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/PineTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/ProgressReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Resources.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/ResourcesExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/River.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/SecondPassLayerExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/SimpleTheme.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Snapshot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/SubProgressReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/SwampLand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/SwampLandExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/SwampTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Theme.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/TileSnapshot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/TransparentColourRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/TreeType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/TreesExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/UndoListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/UndoManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/Void.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hdfcraft/World2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java" afterPath="$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hdfcraft/Dimension.java" afterPath="$PROJECT_DIR$/src/hdfcraft/Dimension.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hdfcraft/Tile.java" afterPath="$PROJECT_DIR$/src/hdfcraft/Tile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hdfcraft/TreeLayer.java" afterPath="$PROJECT_DIR$/src/hdfcraft/TreeLayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HDFCRAFT.iws" />
@@ -79,200 +86,179 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dimension.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Dimension.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hdfcraft/Dimension.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="30702">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.4784946" vertical-offset="536" max-vertical-offset="30549">
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
-                <element signature="e#0#66457#0" expanded="true" />
-                <element signature="e#2851#2852#0" expanded="true" />
-                <element signature="e#2879#2880#0" expanded="true" />
-                <element signature="e#2918#2919#0" expanded="true" />
-                <element signature="e#2952#2953#0" expanded="true" />
-                <element signature="e#2979#2980#0" expanded="true" />
-                <element signature="e#3005#3006#0" expanded="true" />
-                <element signature="e#3328#3329#0" expanded="true" />
-                <element signature="e#3356#3357#0" expanded="true" />
-                <element signature="e#3399#3400#0" expanded="true" />
-                <element signature="e#3433#3434#0" expanded="true" />
-                <element signature="e#3462#3463#0" expanded="true" />
-                <element signature="e#3489#3490#0" expanded="true" />
-                <element signature="e#3535#3536#0" expanded="true" />
-                <element signature="e#3576#3577#0" expanded="true" />
-                <element signature="e#4029#4030#0" expanded="true" />
-                <element signature="e#4060#4061#0" expanded="true" />
-                <element signature="e#4351#4352#0" expanded="true" />
-                <element signature="e#4380#4381#0" expanded="true" />
-                <element signature="e#4699#4700#0" expanded="true" />
-                <element signature="e#4733#4734#0" expanded="true" />
-                <element signature="e#5100#5101#0" expanded="true" />
-                <element signature="e#5133#5134#0" expanded="true" />
-                <element signature="e#5491#5492#0" expanded="true" />
-                <element signature="e#5523#5524#0" expanded="true" />
-                <element signature="e#5828#5829#0" expanded="true" />
-                <element signature="e#5862#5863#0" expanded="true" />
-                <element signature="e#6190#6191#0" expanded="true" />
-                <element signature="e#6224#6225#0" expanded="true" />
-                <element signature="e#6734#6735#0" expanded="true" />
-                <element signature="e#6791#6792#0" expanded="true" />
-                <element signature="e#9874#9875#0" expanded="true" />
-                <element signature="e#9909#9910#0" expanded="true" />
-                <element signature="e#9965#9966#0" expanded="true" />
-                <element signature="e#10038#10039#0" expanded="true" />
-                <element signature="e#10815#10980#0" expanded="true" />
-                <element signature="e#10969#10970#0" expanded="true" />
-                <element signature="e#11377#11378#0" expanded="true" />
-                <element signature="e#11431#11432#0" expanded="true" />
-                <element signature="e#11476#11477#0" expanded="true" />
-                <element signature="e#11528#11529#0" expanded="true" />
-                <element signature="e#12905#12906#0" expanded="true" />
-                <element signature="e#12936#12937#0" expanded="true" />
-                <element signature="e#12968#12969#0" expanded="true" />
-                <element signature="e#12999#13000#0" expanded="true" />
-                <element signature="e#13030#13031#0" expanded="true" />
-                <element signature="e#13060#13061#0" expanded="true" />
-                <element signature="e#13091#13092#0" expanded="true" />
-                <element signature="e#13121#13122#0" expanded="true" />
-                <element signature="e#13517#13518#0" expanded="true" />
-                <element signature="e#13564#13565#0" expanded="true" />
-                <element signature="e#13929#13930#0" expanded="true" />
-                <element signature="e#13990#13991#0" expanded="true" />
-                <element signature="e#14325#14326#0" expanded="true" />
-                <element signature="e#14379#14380#0" expanded="true" />
-                <element signature="e#14855#14856#0" expanded="true" />
-                <element signature="e#14910#14911#0" expanded="true" />
-                <element signature="e#15256#15257#0" expanded="true" />
-                <element signature="e#15313#15314#0" expanded="true" />
-                <element signature="e#15803#15804#0" expanded="true" />
-                <element signature="e#15864#15865#0" expanded="true" />
-                <element signature="e#17596#17597#0" expanded="true" />
-                <element signature="e#17653#17654#0" expanded="true" />
-                <element signature="e#18406#18407#0" expanded="true" />
-                <element signature="e#18464#18465#0" expanded="true" />
-                <element signature="e#19279#19280#0" expanded="true" />
-                <element signature="e#19344#19345#0" expanded="true" />
-                <element signature="e#28571#28572#0" expanded="true" />
-                <element signature="e#28609#28610#0" expanded="true" />
-                <element signature="e#28674#28675#0" expanded="true" />
-                <element signature="e#28739#28740#0" expanded="true" />
-                <element signature="e#28750#28780#0" expanded="true" />
-                <element signature="e#28856#28857#0" expanded="true" />
-                <element signature="e#28903#28904#0" expanded="true" />
-                <element signature="e#29233#29234#0" expanded="true" />
-                <element signature="e#29269#29270#0" expanded="true" />
-                <element signature="e#29748#29749#0" expanded="true" />
-                <element signature="e#29778#29779#0" expanded="true" />
-                <element signature="e#30156#30157#0" expanded="true" />
-                <element signature="e#30193#30194#0" expanded="true" />
-                <element signature="e#30597#30598#0" expanded="true" />
-                <element signature="e#30634#30635#0" expanded="true" />
-                <element signature="e#31038#31039#0" expanded="true" />
-                <element signature="e#31073#31074#0" expanded="true" />
-                <element signature="e#31466#31467#0" expanded="true" />
-                <element signature="e#31508#31509#0" expanded="true" />
-                <element signature="e#31971#31972#0" expanded="true" />
-                <element signature="e#32005#32006#0" expanded="true" />
-                <element signature="e#32322#32323#0" expanded="true" />
-                <element signature="e#32353#32354#0" expanded="true" />
-                <element signature="e#32694#32695#0" expanded="true" />
-                <element signature="e#32731#32732#0" expanded="true" />
-                <element signature="e#33076#33077#0" expanded="true" />
-                <element signature="e#33108#33109#0" expanded="true" />
-                <element signature="e#33460#33461#0" expanded="true" />
-                <element signature="e#33500#33501#0" expanded="true" />
-                <element signature="e#33941#33942#0" expanded="true" />
-                <element signature="e#33979#33980#0" expanded="true" />
-                <element signature="e#34340#34341#0" expanded="true" />
-                <element signature="e#34379#34380#0" expanded="true" />
-                <element signature="e#34808#34809#0" expanded="true" />
-                <element signature="e#34848#34849#0" expanded="true" />
-                <element signature="e#35336#35337#0" expanded="true" />
-                <element signature="e#35369#35370#0" expanded="true" />
-                <element signature="e#35687#35688#0" expanded="true" />
-                <element signature="e#35726#35727#0" expanded="true" />
-                <element signature="e#36313#36314#0" expanded="true" />
-                <element signature="e#36348#36349#0" expanded="true" />
-                <element signature="e#36870#36871#0" expanded="true" />
-                <element signature="e#36910#36911#0" expanded="true" />
-                <element signature="e#37292#37293#0" expanded="true" />
-                <element signature="e#37331#37332#0" expanded="true" />
-                <element signature="e#37396#37397#0" expanded="true" />
-                <element signature="e#37452#37453#0" expanded="true" />
-                <element signature="e#37485#37486#0" expanded="true" />
-                <element signature="e#37514#37515#0" expanded="true" />
-                <element signature="e#37564#37565#0" expanded="true" />
-                <element signature="e#37599#37600#0" expanded="true" />
-                <element signature="e#37666#37667#0" expanded="true" />
-                <element signature="e#37714#37715#0" expanded="true" />
-                <element signature="e#38205#38212#0" expanded="true" />
-                <element signature="e#39328#39335#0" expanded="true" />
-                <element signature="e#39598#39599#0" expanded="true" />
-                <element signature="e#39644#39645#0" expanded="true" />
-                <element signature="e#39684#39685#0" expanded="true" />
-                <element signature="e#39726#39727#0" expanded="true" />
-                <element signature="e#45320#45321#0" expanded="true" />
-                <element signature="e#45359#45360#0" expanded="true" />
-                <element signature="e#45421#45422#0" expanded="true" />
-                <element signature="e#45463#45464#0" expanded="true" />
-                <element signature="e#48501#49020#0" expanded="true" />
-                <element signature="e#49001#49002#0" expanded="true" />
-                <element signature="e#49293#49294#0" expanded="true" />
-                <element signature="e#49321#49322#0" expanded="true" />
-                <element signature="e#49380#49381#0" expanded="true" />
-                <element signature="e#49408#49409#0" expanded="true" />
-                <element signature="e#49470#49471#0" expanded="true" />
-                <element signature="e#49498#49499#0" expanded="true" />
-                <element signature="e#49555#49556#0" expanded="true" />
-                <element signature="e#49583#49584#0" expanded="true" />
-                <element signature="e#49670#49671#0" expanded="true" />
-                <element signature="e#49698#49699#0" expanded="true" />
-                <element signature="e#49765#49766#0" expanded="true" />
-                <element signature="e#49793#49794#0" expanded="true" />
-                <element signature="e#49863#49864#0" expanded="true" />
-                <element signature="e#49891#49892#0" expanded="true" />
-                <element signature="e#51539#51704#0" expanded="true" />
-                <element signature="e#51693#51694#0" expanded="true" />
-                <element signature="e#56709#56722#0" expanded="true" />
-                <element signature="e#58065#58075#0" expanded="true" />
-                <element signature="e#58182#58188#0" expanded="true" />
-                <element signature="e#58248#58254#0" expanded="true" />
-                <element signature="e#58316#58322#0" expanded="true" />
-                <element signature="e#58678#58823#0" expanded="true" />
-                <element signature="e#58816#58817#0" expanded="true" />
-                <element signature="e#60317#60318#0" expanded="true" />
-                <element signature="e#60394#60395#0" expanded="true" />
-                <element signature="e#60497#60503#0" expanded="true" />
-                <element signature="e#63987#63988#0" expanded="true" />
-                <element signature="e#64035#64036#0" expanded="true" />
-                <element signature="e#64102#64103#0" expanded="true" />
-                <element signature="e#64153#64154#0" expanded="true" />
-                <element signature="e#64190#64220#0" expanded="true" />
-                <element signature="e#66322#66329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeciduousForest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeLayer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hdfcraft/TreeLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.037037037" vertical-offset="456" max-vertical-offset="952">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#65966#0" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+                <element signature="e#2352#2353#0" expanded="true" />
+                <element signature="e#2386#2387#0" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#2762#2763#0" expanded="true" />
+                <element signature="e#2790#2791#0" expanded="true" />
+                <element signature="e#2833#2834#0" expanded="true" />
+                <element signature="e#2867#2868#0" expanded="true" />
+                <element signature="e#2896#2897#0" expanded="true" />
+                <element signature="e#2923#2924#0" expanded="true" />
+                <element signature="e#2969#2970#0" expanded="true" />
+                <element signature="e#3010#3011#0" expanded="true" />
+                <element signature="e#3463#3464#0" expanded="true" />
+                <element signature="e#3494#3495#0" expanded="true" />
+                <element signature="e#3785#3786#0" expanded="true" />
+                <element signature="e#3814#3815#0" expanded="true" />
+                <element signature="e#4133#4134#0" expanded="true" />
+                <element signature="e#4167#4168#0" expanded="true" />
+                <element signature="e#4534#4535#0" expanded="true" />
+                <element signature="e#4567#4568#0" expanded="true" />
+                <element signature="e#4925#4926#0" expanded="true" />
+                <element signature="e#4957#4958#0" expanded="true" />
+                <element signature="e#5262#5263#0" expanded="true" />
+                <element signature="e#5296#5297#0" expanded="true" />
+                <element signature="e#5624#5625#0" expanded="true" />
+                <element signature="e#5658#5659#0" expanded="true" />
+                <element signature="e#6168#6169#0" expanded="true" />
+                <element signature="e#6225#6226#0" expanded="true" />
+                <element signature="e#9308#9309#0" expanded="true" />
+                <element signature="e#9343#9344#0" expanded="true" />
+                <element signature="e#9399#9400#0" expanded="true" />
+                <element signature="e#9472#9473#0" expanded="true" />
+                <element signature="e#10249#10414#0" expanded="true" />
+                <element signature="e#10403#10404#0" expanded="true" />
+                <element signature="e#10811#10812#0" expanded="true" />
+                <element signature="e#10865#10866#0" expanded="true" />
+                <element signature="e#10910#10911#0" expanded="true" />
+                <element signature="e#10962#10963#0" expanded="true" />
+                <element signature="e#12414#12415#0" expanded="true" />
+                <element signature="e#12445#12446#0" expanded="true" />
+                <element signature="e#12477#12478#0" expanded="true" />
+                <element signature="e#12508#12509#0" expanded="true" />
+                <element signature="e#12539#12540#0" expanded="true" />
+                <element signature="e#12569#12570#0" expanded="true" />
+                <element signature="e#12600#12601#0" expanded="true" />
+                <element signature="e#12630#12631#0" expanded="true" />
+                <element signature="e#13026#13027#0" expanded="true" />
+                <element signature="e#13073#13074#0" expanded="true" />
+                <element signature="e#13438#13439#0" expanded="true" />
+                <element signature="e#13499#13500#0" expanded="true" />
+                <element signature="e#13834#13835#0" expanded="true" />
+                <element signature="e#13888#13889#0" expanded="true" />
+                <element signature="e#14364#14365#0" expanded="true" />
+                <element signature="e#14419#14420#0" expanded="true" />
+                <element signature="e#14765#14766#0" expanded="true" />
+                <element signature="e#14822#14823#0" expanded="true" />
+                <element signature="e#15312#15313#0" expanded="true" />
+                <element signature="e#15373#15374#0" expanded="true" />
+                <element signature="e#17105#17106#0" expanded="true" />
+                <element signature="e#17162#17163#0" expanded="true" />
+                <element signature="e#17915#17916#0" expanded="true" />
+                <element signature="e#17973#17974#0" expanded="true" />
+                <element signature="e#18788#18789#0" expanded="true" />
+                <element signature="e#18853#18854#0" expanded="true" />
+                <element signature="e#28080#28081#0" expanded="true" />
+                <element signature="e#28118#28119#0" expanded="true" />
+                <element signature="e#28183#28184#0" expanded="true" />
+                <element signature="e#28248#28249#0" expanded="true" />
+                <element signature="e#28259#28289#0" expanded="true" />
+                <element signature="e#28365#28366#0" expanded="true" />
+                <element signature="e#28412#28413#0" expanded="true" />
+                <element signature="e#28742#28743#0" expanded="true" />
+                <element signature="e#28778#28779#0" expanded="true" />
+                <element signature="e#29257#29258#0" expanded="true" />
+                <element signature="e#29287#29288#0" expanded="true" />
+                <element signature="e#29665#29666#0" expanded="true" />
+                <element signature="e#29702#29703#0" expanded="true" />
+                <element signature="e#30106#30107#0" expanded="true" />
+                <element signature="e#30143#30144#0" expanded="true" />
+                <element signature="e#30547#30548#0" expanded="true" />
+                <element signature="e#30582#30583#0" expanded="true" />
+                <element signature="e#30975#30976#0" expanded="true" />
+                <element signature="e#31017#31018#0" expanded="true" />
+                <element signature="e#31480#31481#0" expanded="true" />
+                <element signature="e#31514#31515#0" expanded="true" />
+                <element signature="e#31831#31832#0" expanded="true" />
+                <element signature="e#31862#31863#0" expanded="true" />
+                <element signature="e#32203#32204#0" expanded="true" />
+                <element signature="e#32240#32241#0" expanded="true" />
+                <element signature="e#32585#32586#0" expanded="true" />
+                <element signature="e#32617#32618#0" expanded="true" />
+                <element signature="e#32969#32970#0" expanded="true" />
+                <element signature="e#33009#33010#0" expanded="true" />
+                <element signature="e#33450#33451#0" expanded="true" />
+                <element signature="e#33488#33489#0" expanded="true" />
+                <element signature="e#33849#33850#0" expanded="true" />
+                <element signature="e#33888#33889#0" expanded="true" />
+                <element signature="e#34317#34318#0" expanded="true" />
+                <element signature="e#34357#34358#0" expanded="true" />
+                <element signature="e#34845#34846#0" expanded="true" />
+                <element signature="e#34878#34879#0" expanded="true" />
+                <element signature="e#35196#35197#0" expanded="true" />
+                <element signature="e#35235#35236#0" expanded="true" />
+                <element signature="e#35822#35823#0" expanded="true" />
+                <element signature="e#35857#35858#0" expanded="true" />
+                <element signature="e#36379#36380#0" expanded="true" />
+                <element signature="e#36419#36420#0" expanded="true" />
+                <element signature="e#36801#36802#0" expanded="true" />
+                <element signature="e#36840#36841#0" expanded="true" />
+                <element signature="e#36905#36906#0" expanded="true" />
+                <element signature="e#36961#36962#0" expanded="true" />
+                <element signature="e#36994#36995#0" expanded="true" />
+                <element signature="e#37023#37024#0" expanded="true" />
+                <element signature="e#37073#37074#0" expanded="true" />
+                <element signature="e#37108#37109#0" expanded="true" />
+                <element signature="e#37175#37176#0" expanded="true" />
+                <element signature="e#37223#37224#0" expanded="true" />
+                <element signature="e#37714#37721#0" expanded="true" />
+                <element signature="e#37934#37950#0" expanded="true" />
+                <element signature="e#38837#38844#0" expanded="true" />
+                <element signature="e#39107#39108#0" expanded="true" />
+                <element signature="e#39153#39154#0" expanded="true" />
+                <element signature="e#39193#39194#0" expanded="true" />
+                <element signature="e#39235#39236#0" expanded="true" />
+                <element signature="e#44829#44830#0" expanded="true" />
+                <element signature="e#44868#44869#0" expanded="true" />
+                <element signature="e#44930#44931#0" expanded="true" />
+                <element signature="e#44972#44973#0" expanded="true" />
+                <element signature="e#48010#48529#0" expanded="true" />
+                <element signature="e#48510#48511#0" expanded="true" />
+                <element signature="e#48802#48803#0" expanded="true" />
+                <element signature="e#48830#48831#0" expanded="true" />
+                <element signature="e#48889#48890#0" expanded="true" />
+                <element signature="e#48917#48918#0" expanded="true" />
+                <element signature="e#48979#48980#0" expanded="true" />
+                <element signature="e#49007#49008#0" expanded="true" />
+                <element signature="e#49064#49065#0" expanded="true" />
+                <element signature="e#49092#49093#0" expanded="true" />
+                <element signature="e#49179#49180#0" expanded="true" />
+                <element signature="e#49207#49208#0" expanded="true" />
+                <element signature="e#49274#49275#0" expanded="true" />
+                <element signature="e#49302#49303#0" expanded="true" />
+                <element signature="e#49372#49373#0" expanded="true" />
+                <element signature="e#49400#49401#0" expanded="true" />
+                <element signature="e#51048#51213#0" expanded="true" />
+                <element signature="e#51202#51203#0" expanded="true" />
+                <element signature="e#56218#56231#0" expanded="true" />
+                <element signature="e#56687#56712#0" expanded="true" />
+                <element signature="e#57409#57422#0" expanded="true" />
+                <element signature="e#57574#57584#0" expanded="true" />
+                <element signature="e#57691#57697#0" expanded="true" />
+                <element signature="e#57757#57763#0" expanded="true" />
+                <element signature="e#57825#57831#0" expanded="true" />
+                <element signature="e#58187#58332#0" expanded="true" />
+                <element signature="e#58325#58326#0" expanded="true" />
+                <element signature="e#59826#59827#0" expanded="true" />
+                <element signature="e#59903#59904#0" expanded="true" />
+                <element signature="e#60006#60012#0" expanded="true" />
+                <element signature="e#63496#63497#0" expanded="true" />
+                <element signature="e#63544#63545#0" expanded="true" />
+                <element signature="e#63611#63612#0" expanded="true" />
+                <element signature="e#63662#63663#0" expanded="true" />
+                <element signature="e#63699#63729#0" expanded="true" />
+                <element signature="e#65831#65838#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -291,57 +277,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/hdfcraft/Constants.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/HeightTransform.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Material.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/TileFactory.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Direction.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Material.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/CollectionUtils.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Constants.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/ImprovedNoise.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/PerlinNoise.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/BiomeScheme.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/ColourScheme.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/AbstractBiomeScheme.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_1BiomeScheme.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_7BiomeScheme.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/RandomField.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/CustomTerrainHelper.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/NoiseSettings.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/MathUtils.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/NoiseHeightMap.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/MixedMaterial.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/IconUtils.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Terrain.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/FloodWithLava.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Garden.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Cloneable.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/CoordinateTransform.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkFactory.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/MinecraftWorld.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkProvider.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/AbstractNBTItem.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/NBTItem.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Entity.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Mob.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Player.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Villager.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Painting.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/TileEntity.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/WallSign.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/Chest.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/ItemContainer.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/InventoryItem.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Seed.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/UndoManager.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Biome.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Tile.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Dimension.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/HeightMap.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/TreeLayer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/PineForest.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/SecondPassLayerExporter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/IncidentalLayerExporter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/GardenCategory.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/TreesExporter.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/TreeLayer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/OakTree.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/DeciduousTree.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/BirchTree.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Resources.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Void.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/ResourcesExporter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/FirstPassLayerExporter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/ProgressReceiver.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/AbstractTileFactory.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Theme.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Filter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/HeightFilter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Frost.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/SimpleTheme.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/HeightMapTileFactory.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Generator.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/SubProgressReceiver.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/BufferKey.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/UndoListener.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Snapshot.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/MemoryUtils.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/DeeplyCopyable.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/UndoManager.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/World2.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Tile.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/CustomBiome.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_2BiomeScheme.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/LayerRenderer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/NibbleLayerRenderer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/BitLayerRenderer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/TransparentColourRenderer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/ColourUtils.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/CustomLayer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/LayerContainer.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/River.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/SwampLandExporter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/SwampLand.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/JungleTree.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Bush.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Jungle.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/TileSnapshot.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/DimensionSnapshot.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Dimension.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/SwampTree.java" />
       </list>
     </option>
   </component>
@@ -393,8 +379,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -463,28 +449,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HDFCRAFT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HDFCRAFT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hdfcraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -509,8 +473,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hyoklee\Documents\GitHub\HDFCRAFT\src\hdfcraft\minecraft" />
       <recent name="C:\Users\hyoklee\Documents\GitHub\HDFCRAFT\src\hdfcraft" />
+      <recent name="C:\Users\hyoklee\Documents\GitHub\HDFCRAFT\src\hdfcraft\minecraft" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Hdfcraft">
@@ -693,15 +657,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33878887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33878887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2057101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32733223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -761,13 +725,19 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hdfcraft/Dimension.java</url>
+          <url>file://$PROJECT_DIR$/src/hdfcraft/SecondPassLayerExporter.java</url>
           <line>7</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hdfcraft/BirchTree.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -775,59 +745,291 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Layer.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SecondPassLayerExporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
-          <caret line="127" column="4" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.11888112" vertical-offset="0" max-vertical-offset="572">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/IncidentalLayerExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16752137" vertical-offset="4" max-vertical-offset="646">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
-            <element signature="e#3050#3051#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TileProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="355">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/InstanceKeeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/AttributeKeyVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hdfcraft/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="0.26153848" vertical-offset="0" max-vertical-offset="1530">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/HeightTransform.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/GardenCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TreesExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3548951" vertical-offset="69" max-vertical-offset="4590">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#12778#12790#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TreeLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61025643" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/DeciduousTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2630561" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2419#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/OakTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12830189" vertical-offset="0" max-vertical-offset="530">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#487#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BirchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25660378" vertical-offset="0" max-vertical-offset="530">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#498#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14529915" vertical-offset="0" max-vertical-offset="585">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Void.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/FirstPassLayerExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21957672" vertical-offset="2" max-vertical-offset="459">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ResourcesExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12054794" vertical-offset="1979" max-vertical-offset="5542">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13955#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#6192#6193#0" expanded="true" />
+            <element signature="e#6238#6239#0" expanded="true" />
+            <element signature="e#9894#9895#0" expanded="true" />
+            <element signature="e#9941#9942#0" expanded="true" />
+            <element signature="e#9981#9982#0" expanded="true" />
+            <element signature="e#10024#10025#0" expanded="true" />
+            <element signature="e#10081#10082#0" expanded="true" />
+            <element signature="e#10137#10138#0" expanded="true" />
+            <element signature="e#10192#10193#0" expanded="true" />
+            <element signature="e#10241#10242#0" expanded="true" />
+            <element signature="e#10298#10299#0" expanded="true" />
+            <element signature="e#10353#10354#0" expanded="true" />
+            <element signature="e#10425#10426#0" expanded="true" />
+            <element signature="e#10483#10484#0" expanded="true" />
+            <element signature="e#10540#10541#0" expanded="true" />
+            <element signature="e#10595#10596#0" expanded="true" />
+            <element signature="e#10667#10668#0" expanded="true" />
+            <element signature="e#10725#10726#0" expanded="true" />
+            <element signature="e#10780#10781#0" expanded="true" />
+            <element signature="e#10833#10834#0" expanded="true" />
+            <element signature="e#10901#10902#0" expanded="true" />
+            <element signature="e#10955#10956#0" expanded="true" />
+            <element signature="e#11007#11008#0" expanded="true" />
+            <element signature="e#11064#11065#0" expanded="true" />
+            <element signature="e#11129#11130#0" expanded="true" />
+            <element signature="e#11178#11179#0" expanded="true" />
+            <element signature="e#13515#13533#0" expanded="true" />
+            <element signature="e#13602#13620#0" expanded="true" />
+            <element signature="e#13690#13705#0" expanded="true" />
+            <element signature="e#13770#13788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ProgressReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1031747" vertical-offset="795" max-vertical-offset="1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/AbstractTileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Theme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17195767" vertical-offset="3" max-vertical-offset="544">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/HeightFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Frost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SimpleTheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14520548" vertical-offset="202" max-vertical-offset="4947">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11143#11158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/HeightMapTileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25396827" vertical-offset="40" max-vertical-offset="2839">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SubProgressReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BufferKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/UndoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Snapshot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -835,99 +1037,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TileFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/MemoryUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Direction.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/DeeplyCopyable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.66766465" vertical-offset="223" max-vertical-offset="1819">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Material.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/UndoManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-48.42105" vertical-offset="16781" max-vertical-offset="17544">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#46049#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CollectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55737704" vertical-offset="0" max-vertical-offset="14705">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#37440#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ImprovedNoise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/PerlinNoise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="2380">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.81369865" vertical-offset="8152" max-vertical-offset="9537">
+          <caret line="520" column="34" selection-start-line="520" selection-start-column="34" selection-end-line="520" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#20633#20655#0" expanded="true" />
+            <element signature="e#20741#20763#0" expanded="true" />
+            <element signature="e#20829#20843#0" expanded="true" />
+            <element signature="e#20927#20955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ColourScheme.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/World2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15711646" vertical-offset="0" max-vertical-offset="541">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.5287671" vertical-offset="215" max-vertical-offset="9792">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21937#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2690#2691#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2830#2831#0" expanded="true" />
+            <element signature="e#3200#3201#0" expanded="true" />
+            <element signature="e#3235#3236#0" expanded="true" />
+            <element signature="e#3657#3658#0" expanded="true" />
+            <element signature="e#3691#3692#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4043#4044#0" expanded="true" />
+            <element signature="e#5083#5084#0" expanded="true" />
+            <element signature="e#5125#5126#0" expanded="true" />
+            <element signature="e#5171#5172#0" expanded="true" />
+            <element signature="e#5255#5256#0" expanded="true" />
+            <element signature="e#6284#6285#0" expanded="true" />
+            <element signature="e#6328#6329#0" expanded="true" />
+            <element signature="e#6808#6809#0" expanded="true" />
+            <element signature="e#6840#6841#0" expanded="true" />
+            <element signature="e#7190#7191#0" expanded="true" />
+            <element signature="e#7222#7223#0" expanded="true" />
+            <element signature="e#7576#7577#0" expanded="true" />
+            <element signature="e#7606#7607#0" expanded="true" />
+            <element signature="e#8518#8519#0" expanded="true" />
+            <element signature="e#8558#8559#0" expanded="true" />
+            <element signature="e#8621#8622#0" expanded="true" />
+            <element signature="e#8679#8680#0" expanded="true" />
+            <element signature="e#8723#8724#0" expanded="true" />
+            <element signature="e#8759#8760#0" expanded="true" />
+            <element signature="e#8821#8822#0" expanded="true" />
+            <element signature="e#8871#8872#0" expanded="true" />
+            <element signature="e#8909#8910#0" expanded="true" />
+            <element signature="e#8943#8944#0" expanded="true" />
+            <element signature="e#9261#9262#0" expanded="true" />
+            <element signature="e#9288#9289#0" expanded="true" />
+            <element signature="e#9595#9596#0" expanded="true" />
+            <element signature="e#9630#9631#0" expanded="true" />
+            <element signature="e#9687#9688#0" expanded="true" />
+            <element signature="e#9735#9736#0" expanded="true" />
+            <element signature="e#9773#9774#0" expanded="true" />
+            <element signature="e#9807#9808#0" expanded="true" />
+            <element signature="e#10134#10135#0" expanded="true" />
+            <element signature="e#10173#10174#0" expanded="true" />
+            <element signature="e#10682#10683#0" expanded="true" />
+            <element signature="e#10721#10722#0" expanded="true" />
+            <element signature="e#12245#12275#0" expanded="true" />
+            <element signature="e#12830#12831#0" expanded="true" />
+            <element signature="e#12861#12862#0" expanded="true" />
+            <element signature="e#19330#19350#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BiomeScheme.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.327402" vertical-offset="0" max-vertical-offset="2499">
-          <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
-          <folding />
+        <state vertical-scroll-proportion="0.13227513" vertical-offset="443" max-vertical-offset="22389">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#53037#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#6958#6959#0" expanded="true" />
+            <element signature="e#7011#7012#0" expanded="true" />
+            <element signature="e#10249#10256#0" expanded="true" />
+            <element signature="e#11139#11146#0" expanded="true" />
+            <element signature="e#12758#12765#0" expanded="true" />
+            <element signature="e#29446#29447#0" expanded="true" />
+            <element signature="e#29485#29486#0" expanded="true" />
+            <element signature="e#29551#29552#0" expanded="true" />
+            <element signature="e#29593#29594#0" expanded="true" />
+            <element signature="e#29648#29649#0" expanded="true" />
+            <element signature="e#29686#29687#0" expanded="true" />
+            <element signature="e#40093#40094#0" expanded="true" />
+            <element signature="e#40147#40148#0" expanded="true" />
+            <element signature="e#40799#40800#0" expanded="true" />
+            <element signature="e#40851#40852#0" expanded="true" />
+            <element signature="e#50265#50280#0" expanded="true" />
+            <element signature="e#50329#50335#0" expanded="true" />
+            <element signature="e#52591#52592#0" expanded="true" />
+            <element signature="e#52683#52684#0" expanded="true" />
+            <element signature="e#52737#52738#0" expanded="true" />
+            <element signature="e#52818#52819#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/AbstractBiomeScheme.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_2BiomeScheme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.090747334" vertical-offset="0" max-vertical-offset="562">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_7BiomeScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3096539" vertical-offset="0" max-vertical-offset="8364">
+        <state vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="3451">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -935,476 +1180,332 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/RandomField.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CustomBiome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+        <state vertical-scroll-proportion="-0.52380955" vertical-offset="198" max-vertical-offset="816">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/NoiseSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/LayerRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CustomTerrainHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/NibbleLayerRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3024911" vertical-offset="0" max-vertical-offset="1394">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BitLayerRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ColourUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TransparentColourRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17989418" vertical-offset="0" max-vertical-offset="578">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CustomLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5925926" vertical-offset="881" max-vertical-offset="2074">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/MathUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/LayerContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/MixedMaterial.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/River.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38304093" vertical-offset="141" max-vertical-offset="8092">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SwampLandExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44973546" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SwampLand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26984128" vertical-offset="0" max-vertical-offset="884">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15324#15334#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/IconUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/JungleTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43098593" vertical-offset="0" max-vertical-offset="1020">
+        <state vertical-scroll-proportion="0.5589041" vertical-offset="0" max-vertical-offset="4114">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
+            <element signature="e#0#11958#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Bush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18356164" vertical-offset="1" max-vertical-offset="799">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Terrain.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Jungle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59177214" vertical-offset="51" max-vertical-offset="22457">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.17989418" vertical-offset="0" max-vertical-offset="714">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/FloodWithLava.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TileSnapshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="355">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.3121693" vertical-offset="1" max-vertical-offset="1700">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Garden.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/DimensionSnapshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23661971" vertical-offset="1" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3842">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7566#7587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SwampTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22486773" vertical-offset="0" max-vertical-offset="544">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="355">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CoordinateTransform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39181286" vertical-offset="2" max-vertical-offset="3060">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="355">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/NBTItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="355">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/AbstractNBTItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5746479" vertical-offset="0" max-vertical-offset="2975">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Mob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.771831" vertical-offset="410" max-vertical-offset="765">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5746479" vertical-offset="0" max-vertical-offset="510">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Villager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28732395" vertical-offset="0" max-vertical-offset="527">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Painting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52112675" vertical-offset="2" max-vertical-offset="714">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.428169" vertical-offset="1157" max-vertical-offset="1530">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/WallSign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23098591" vertical-offset="3" max-vertical-offset="561">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/InventoryItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42535213" vertical-offset="2" max-vertical-offset="833">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/ItemContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="355">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Chest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5267606" vertical-offset="0" max-vertical-offset="816">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#672#687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/TileEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33239436" vertical-offset="613" max-vertical-offset="986">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/MinecraftWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5746479" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2036#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Seed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4473684" vertical-offset="0" max-vertical-offset="5610">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Biome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Tile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75438595" vertical-offset="16912" max-vertical-offset="18224">
-          <caret line="1033" column="10" selection-start-line="1033" selection-start-column="10" selection-end-line="1033" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#41230#41245#0" expanded="true" />
-            <element signature="e#41294#41300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/NoiseHeightMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51232874" vertical-offset="0" max-vertical-offset="2312">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/HeightMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6904762" vertical-offset="147" max-vertical-offset="527">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hdfcraft/Dimension.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="30702">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.4784946" vertical-offset="536" max-vertical-offset="30549">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding>
-            <element signature="e#0#66457#0" expanded="true" />
-            <element signature="e#2851#2852#0" expanded="true" />
-            <element signature="e#2879#2880#0" expanded="true" />
-            <element signature="e#2918#2919#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3005#3006#0" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3356#3357#0" expanded="true" />
-            <element signature="e#3399#3400#0" expanded="true" />
-            <element signature="e#3433#3434#0" expanded="true" />
-            <element signature="e#3462#3463#0" expanded="true" />
-            <element signature="e#3489#3490#0" expanded="true" />
-            <element signature="e#3535#3536#0" expanded="true" />
-            <element signature="e#3576#3577#0" expanded="true" />
-            <element signature="e#4029#4030#0" expanded="true" />
-            <element signature="e#4060#4061#0" expanded="true" />
-            <element signature="e#4351#4352#0" expanded="true" />
-            <element signature="e#4380#4381#0" expanded="true" />
-            <element signature="e#4699#4700#0" expanded="true" />
-            <element signature="e#4733#4734#0" expanded="true" />
-            <element signature="e#5100#5101#0" expanded="true" />
-            <element signature="e#5133#5134#0" expanded="true" />
-            <element signature="e#5491#5492#0" expanded="true" />
-            <element signature="e#5523#5524#0" expanded="true" />
-            <element signature="e#5828#5829#0" expanded="true" />
-            <element signature="e#5862#5863#0" expanded="true" />
-            <element signature="e#6190#6191#0" expanded="true" />
-            <element signature="e#6224#6225#0" expanded="true" />
-            <element signature="e#6734#6735#0" expanded="true" />
-            <element signature="e#6791#6792#0" expanded="true" />
-            <element signature="e#9874#9875#0" expanded="true" />
-            <element signature="e#9909#9910#0" expanded="true" />
-            <element signature="e#9965#9966#0" expanded="true" />
-            <element signature="e#10038#10039#0" expanded="true" />
-            <element signature="e#10815#10980#0" expanded="true" />
-            <element signature="e#10969#10970#0" expanded="true" />
-            <element signature="e#11377#11378#0" expanded="true" />
-            <element signature="e#11431#11432#0" expanded="true" />
-            <element signature="e#11476#11477#0" expanded="true" />
-            <element signature="e#11528#11529#0" expanded="true" />
-            <element signature="e#12905#12906#0" expanded="true" />
-            <element signature="e#12936#12937#0" expanded="true" />
-            <element signature="e#12968#12969#0" expanded="true" />
-            <element signature="e#12999#13000#0" expanded="true" />
-            <element signature="e#13030#13031#0" expanded="true" />
-            <element signature="e#13060#13061#0" expanded="true" />
-            <element signature="e#13091#13092#0" expanded="true" />
-            <element signature="e#13121#13122#0" expanded="true" />
-            <element signature="e#13517#13518#0" expanded="true" />
-            <element signature="e#13564#13565#0" expanded="true" />
-            <element signature="e#13929#13930#0" expanded="true" />
-            <element signature="e#13990#13991#0" expanded="true" />
-            <element signature="e#14325#14326#0" expanded="true" />
-            <element signature="e#14379#14380#0" expanded="true" />
-            <element signature="e#14855#14856#0" expanded="true" />
-            <element signature="e#14910#14911#0" expanded="true" />
-            <element signature="e#15256#15257#0" expanded="true" />
-            <element signature="e#15313#15314#0" expanded="true" />
-            <element signature="e#15803#15804#0" expanded="true" />
-            <element signature="e#15864#15865#0" expanded="true" />
-            <element signature="e#17596#17597#0" expanded="true" />
-            <element signature="e#17653#17654#0" expanded="true" />
-            <element signature="e#18406#18407#0" expanded="true" />
-            <element signature="e#18464#18465#0" expanded="true" />
-            <element signature="e#19279#19280#0" expanded="true" />
-            <element signature="e#19344#19345#0" expanded="true" />
-            <element signature="e#28571#28572#0" expanded="true" />
-            <element signature="e#28609#28610#0" expanded="true" />
-            <element signature="e#28674#28675#0" expanded="true" />
-            <element signature="e#28739#28740#0" expanded="true" />
-            <element signature="e#28750#28780#0" expanded="true" />
-            <element signature="e#28856#28857#0" expanded="true" />
-            <element signature="e#28903#28904#0" expanded="true" />
-            <element signature="e#29233#29234#0" expanded="true" />
-            <element signature="e#29269#29270#0" expanded="true" />
-            <element signature="e#29748#29749#0" expanded="true" />
-            <element signature="e#29778#29779#0" expanded="true" />
-            <element signature="e#30156#30157#0" expanded="true" />
-            <element signature="e#30193#30194#0" expanded="true" />
-            <element signature="e#30597#30598#0" expanded="true" />
-            <element signature="e#30634#30635#0" expanded="true" />
-            <element signature="e#31038#31039#0" expanded="true" />
-            <element signature="e#31073#31074#0" expanded="true" />
-            <element signature="e#31466#31467#0" expanded="true" />
-            <element signature="e#31508#31509#0" expanded="true" />
-            <element signature="e#31971#31972#0" expanded="true" />
-            <element signature="e#32005#32006#0" expanded="true" />
-            <element signature="e#32322#32323#0" expanded="true" />
-            <element signature="e#32353#32354#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#32731#32732#0" expanded="true" />
-            <element signature="e#33076#33077#0" expanded="true" />
-            <element signature="e#33108#33109#0" expanded="true" />
-            <element signature="e#33460#33461#0" expanded="true" />
-            <element signature="e#33500#33501#0" expanded="true" />
-            <element signature="e#33941#33942#0" expanded="true" />
-            <element signature="e#33979#33980#0" expanded="true" />
-            <element signature="e#34340#34341#0" expanded="true" />
-            <element signature="e#34379#34380#0" expanded="true" />
-            <element signature="e#34808#34809#0" expanded="true" />
-            <element signature="e#34848#34849#0" expanded="true" />
-            <element signature="e#35336#35337#0" expanded="true" />
-            <element signature="e#35369#35370#0" expanded="true" />
-            <element signature="e#35687#35688#0" expanded="true" />
-            <element signature="e#35726#35727#0" expanded="true" />
-            <element signature="e#36313#36314#0" expanded="true" />
-            <element signature="e#36348#36349#0" expanded="true" />
-            <element signature="e#36870#36871#0" expanded="true" />
-            <element signature="e#36910#36911#0" expanded="true" />
-            <element signature="e#37292#37293#0" expanded="true" />
-            <element signature="e#37331#37332#0" expanded="true" />
-            <element signature="e#37396#37397#0" expanded="true" />
-            <element signature="e#37452#37453#0" expanded="true" />
-            <element signature="e#37485#37486#0" expanded="true" />
-            <element signature="e#37514#37515#0" expanded="true" />
-            <element signature="e#37564#37565#0" expanded="true" />
-            <element signature="e#37599#37600#0" expanded="true" />
-            <element signature="e#37666#37667#0" expanded="true" />
-            <element signature="e#37714#37715#0" expanded="true" />
-            <element signature="e#38205#38212#0" expanded="true" />
-            <element signature="e#39328#39335#0" expanded="true" />
-            <element signature="e#39598#39599#0" expanded="true" />
-            <element signature="e#39644#39645#0" expanded="true" />
-            <element signature="e#39684#39685#0" expanded="true" />
-            <element signature="e#39726#39727#0" expanded="true" />
-            <element signature="e#45320#45321#0" expanded="true" />
-            <element signature="e#45359#45360#0" expanded="true" />
-            <element signature="e#45421#45422#0" expanded="true" />
-            <element signature="e#45463#45464#0" expanded="true" />
-            <element signature="e#48501#49020#0" expanded="true" />
-            <element signature="e#49001#49002#0" expanded="true" />
-            <element signature="e#49293#49294#0" expanded="true" />
-            <element signature="e#49321#49322#0" expanded="true" />
-            <element signature="e#49380#49381#0" expanded="true" />
-            <element signature="e#49408#49409#0" expanded="true" />
-            <element signature="e#49470#49471#0" expanded="true" />
-            <element signature="e#49498#49499#0" expanded="true" />
-            <element signature="e#49555#49556#0" expanded="true" />
-            <element signature="e#49583#49584#0" expanded="true" />
-            <element signature="e#49670#49671#0" expanded="true" />
-            <element signature="e#49698#49699#0" expanded="true" />
-            <element signature="e#49765#49766#0" expanded="true" />
-            <element signature="e#49793#49794#0" expanded="true" />
-            <element signature="e#49863#49864#0" expanded="true" />
-            <element signature="e#49891#49892#0" expanded="true" />
-            <element signature="e#51539#51704#0" expanded="true" />
-            <element signature="e#51693#51694#0" expanded="true" />
-            <element signature="e#56709#56722#0" expanded="true" />
-            <element signature="e#58065#58075#0" expanded="true" />
-            <element signature="e#58182#58188#0" expanded="true" />
-            <element signature="e#58248#58254#0" expanded="true" />
-            <element signature="e#58316#58322#0" expanded="true" />
-            <element signature="e#58678#58823#0" expanded="true" />
-            <element signature="e#58816#58817#0" expanded="true" />
-            <element signature="e#60317#60318#0" expanded="true" />
-            <element signature="e#60394#60395#0" expanded="true" />
-            <element signature="e#60497#60503#0" expanded="true" />
-            <element signature="e#63987#63988#0" expanded="true" />
-            <element signature="e#64035#64036#0" expanded="true" />
-            <element signature="e#64102#64103#0" expanded="true" />
-            <element signature="e#64153#64154#0" expanded="true" />
-            <element signature="e#64190#64220#0" expanded="true" />
-            <element signature="e#66322#66329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/DeciduousForest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TreeLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.037037037" vertical-offset="456" max-vertical-offset="952">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#65966#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2790#2791#0" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#2923#2924#0" expanded="true" />
+            <element signature="e#2969#2970#0" expanded="true" />
+            <element signature="e#3010#3011#0" expanded="true" />
+            <element signature="e#3463#3464#0" expanded="true" />
+            <element signature="e#3494#3495#0" expanded="true" />
+            <element signature="e#3785#3786#0" expanded="true" />
+            <element signature="e#3814#3815#0" expanded="true" />
+            <element signature="e#4133#4134#0" expanded="true" />
+            <element signature="e#4167#4168#0" expanded="true" />
+            <element signature="e#4534#4535#0" expanded="true" />
+            <element signature="e#4567#4568#0" expanded="true" />
+            <element signature="e#4925#4926#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+            <element signature="e#5262#5263#0" expanded="true" />
+            <element signature="e#5296#5297#0" expanded="true" />
+            <element signature="e#5624#5625#0" expanded="true" />
+            <element signature="e#5658#5659#0" expanded="true" />
+            <element signature="e#6168#6169#0" expanded="true" />
+            <element signature="e#6225#6226#0" expanded="true" />
+            <element signature="e#9308#9309#0" expanded="true" />
+            <element signature="e#9343#9344#0" expanded="true" />
+            <element signature="e#9399#9400#0" expanded="true" />
+            <element signature="e#9472#9473#0" expanded="true" />
+            <element signature="e#10249#10414#0" expanded="true" />
+            <element signature="e#10403#10404#0" expanded="true" />
+            <element signature="e#10811#10812#0" expanded="true" />
+            <element signature="e#10865#10866#0" expanded="true" />
+            <element signature="e#10910#10911#0" expanded="true" />
+            <element signature="e#10962#10963#0" expanded="true" />
+            <element signature="e#12414#12415#0" expanded="true" />
+            <element signature="e#12445#12446#0" expanded="true" />
+            <element signature="e#12477#12478#0" expanded="true" />
+            <element signature="e#12508#12509#0" expanded="true" />
+            <element signature="e#12539#12540#0" expanded="true" />
+            <element signature="e#12569#12570#0" expanded="true" />
+            <element signature="e#12600#12601#0" expanded="true" />
+            <element signature="e#12630#12631#0" expanded="true" />
+            <element signature="e#13026#13027#0" expanded="true" />
+            <element signature="e#13073#13074#0" expanded="true" />
+            <element signature="e#13438#13439#0" expanded="true" />
+            <element signature="e#13499#13500#0" expanded="true" />
+            <element signature="e#13834#13835#0" expanded="true" />
+            <element signature="e#13888#13889#0" expanded="true" />
+            <element signature="e#14364#14365#0" expanded="true" />
+            <element signature="e#14419#14420#0" expanded="true" />
+            <element signature="e#14765#14766#0" expanded="true" />
+            <element signature="e#14822#14823#0" expanded="true" />
+            <element signature="e#15312#15313#0" expanded="true" />
+            <element signature="e#15373#15374#0" expanded="true" />
+            <element signature="e#17105#17106#0" expanded="true" />
+            <element signature="e#17162#17163#0" expanded="true" />
+            <element signature="e#17915#17916#0" expanded="true" />
+            <element signature="e#17973#17974#0" expanded="true" />
+            <element signature="e#18788#18789#0" expanded="true" />
+            <element signature="e#18853#18854#0" expanded="true" />
+            <element signature="e#28080#28081#0" expanded="true" />
+            <element signature="e#28118#28119#0" expanded="true" />
+            <element signature="e#28183#28184#0" expanded="true" />
+            <element signature="e#28248#28249#0" expanded="true" />
+            <element signature="e#28259#28289#0" expanded="true" />
+            <element signature="e#28365#28366#0" expanded="true" />
+            <element signature="e#28412#28413#0" expanded="true" />
+            <element signature="e#28742#28743#0" expanded="true" />
+            <element signature="e#28778#28779#0" expanded="true" />
+            <element signature="e#29257#29258#0" expanded="true" />
+            <element signature="e#29287#29288#0" expanded="true" />
+            <element signature="e#29665#29666#0" expanded="true" />
+            <element signature="e#29702#29703#0" expanded="true" />
+            <element signature="e#30106#30107#0" expanded="true" />
+            <element signature="e#30143#30144#0" expanded="true" />
+            <element signature="e#30547#30548#0" expanded="true" />
+            <element signature="e#30582#30583#0" expanded="true" />
+            <element signature="e#30975#30976#0" expanded="true" />
+            <element signature="e#31017#31018#0" expanded="true" />
+            <element signature="e#31480#31481#0" expanded="true" />
+            <element signature="e#31514#31515#0" expanded="true" />
+            <element signature="e#31831#31832#0" expanded="true" />
+            <element signature="e#31862#31863#0" expanded="true" />
+            <element signature="e#32203#32204#0" expanded="true" />
+            <element signature="e#32240#32241#0" expanded="true" />
+            <element signature="e#32585#32586#0" expanded="true" />
+            <element signature="e#32617#32618#0" expanded="true" />
+            <element signature="e#32969#32970#0" expanded="true" />
+            <element signature="e#33009#33010#0" expanded="true" />
+            <element signature="e#33450#33451#0" expanded="true" />
+            <element signature="e#33488#33489#0" expanded="true" />
+            <element signature="e#33849#33850#0" expanded="true" />
+            <element signature="e#33888#33889#0" expanded="true" />
+            <element signature="e#34317#34318#0" expanded="true" />
+            <element signature="e#34357#34358#0" expanded="true" />
+            <element signature="e#34845#34846#0" expanded="true" />
+            <element signature="e#34878#34879#0" expanded="true" />
+            <element signature="e#35196#35197#0" expanded="true" />
+            <element signature="e#35235#35236#0" expanded="true" />
+            <element signature="e#35822#35823#0" expanded="true" />
+            <element signature="e#35857#35858#0" expanded="true" />
+            <element signature="e#36379#36380#0" expanded="true" />
+            <element signature="e#36419#36420#0" expanded="true" />
+            <element signature="e#36801#36802#0" expanded="true" />
+            <element signature="e#36840#36841#0" expanded="true" />
+            <element signature="e#36905#36906#0" expanded="true" />
+            <element signature="e#36961#36962#0" expanded="true" />
+            <element signature="e#36994#36995#0" expanded="true" />
+            <element signature="e#37023#37024#0" expanded="true" />
+            <element signature="e#37073#37074#0" expanded="true" />
+            <element signature="e#37108#37109#0" expanded="true" />
+            <element signature="e#37175#37176#0" expanded="true" />
+            <element signature="e#37223#37224#0" expanded="true" />
+            <element signature="e#37714#37721#0" expanded="true" />
+            <element signature="e#37934#37950#0" expanded="true" />
+            <element signature="e#38837#38844#0" expanded="true" />
+            <element signature="e#39107#39108#0" expanded="true" />
+            <element signature="e#39153#39154#0" expanded="true" />
+            <element signature="e#39193#39194#0" expanded="true" />
+            <element signature="e#39235#39236#0" expanded="true" />
+            <element signature="e#44829#44830#0" expanded="true" />
+            <element signature="e#44868#44869#0" expanded="true" />
+            <element signature="e#44930#44931#0" expanded="true" />
+            <element signature="e#44972#44973#0" expanded="true" />
+            <element signature="e#48010#48529#0" expanded="true" />
+            <element signature="e#48510#48511#0" expanded="true" />
+            <element signature="e#48802#48803#0" expanded="true" />
+            <element signature="e#48830#48831#0" expanded="true" />
+            <element signature="e#48889#48890#0" expanded="true" />
+            <element signature="e#48917#48918#0" expanded="true" />
+            <element signature="e#48979#48980#0" expanded="true" />
+            <element signature="e#49007#49008#0" expanded="true" />
+            <element signature="e#49064#49065#0" expanded="true" />
+            <element signature="e#49092#49093#0" expanded="true" />
+            <element signature="e#49179#49180#0" expanded="true" />
+            <element signature="e#49207#49208#0" expanded="true" />
+            <element signature="e#49274#49275#0" expanded="true" />
+            <element signature="e#49302#49303#0" expanded="true" />
+            <element signature="e#49372#49373#0" expanded="true" />
+            <element signature="e#49400#49401#0" expanded="true" />
+            <element signature="e#51048#51213#0" expanded="true" />
+            <element signature="e#51202#51203#0" expanded="true" />
+            <element signature="e#56218#56231#0" expanded="true" />
+            <element signature="e#56687#56712#0" expanded="true" />
+            <element signature="e#57409#57422#0" expanded="true" />
+            <element signature="e#57574#57584#0" expanded="true" />
+            <element signature="e#57691#57697#0" expanded="true" />
+            <element signature="e#57757#57763#0" expanded="true" />
+            <element signature="e#57825#57831#0" expanded="true" />
+            <element signature="e#58187#58332#0" expanded="true" />
+            <element signature="e#58325#58326#0" expanded="true" />
+            <element signature="e#59826#59827#0" expanded="true" />
+            <element signature="e#59903#59904#0" expanded="true" />
+            <element signature="e#60006#60012#0" expanded="true" />
+            <element signature="e#63496#63497#0" expanded="true" />
+            <element signature="e#63544#63545#0" expanded="true" />
+            <element signature="e#63611#63612#0" expanded="true" />
+            <element signature="e#63662#63663#0" expanded="true" />
+            <element signature="e#63699#63729#0" expanded="true" />
+            <element signature="e#65831#65838#0" expanded="true" />
           </folding>
         </state>
       </provider>
