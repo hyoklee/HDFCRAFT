@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Random;
 
 import hdfcraft.minecraft.Material;
+import hdfcraft.heightMaps.NoiseHeightMap;
 
 
 /**
