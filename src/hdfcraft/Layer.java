@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
+import hdfcraft.renderers.LayerRenderer;
 
 /**
  *
@@ -64,7 +65,15 @@ public abstract class Layer implements Serializable, Comparable<Layer> {
     protected void setDescription(String description) {
         this.description = description;
     }
-
+    
+    public LayerExporter<? extends Layer> getExporter() {
+        return exporter;
+    }
+    
+    public LayerRenderer getRenderer() {
+        return renderer;
+    }
+    
     public BufferedImage getIcon() {
         return icon;
     }
@@ -124,6 +133,33 @@ public abstract class Layer implements Serializable, Comparable<Layer> {
     @SuppressWarnings("unchecked")
     private void init() {
         Class<? extends Layer> clazz = getClass();
+        ClassLoader pluginClassLoader = PluginManager.getPluginClassLoader();
+        try {
+            LayerRenderer myRenderer;
+            try {
+                myRenderer = (LayerRenderer) pluginClassLoader.loadClass(clazz.getPackage().getName() + ".renderers." + clazz.getSimpleName() + "Renderer").newInstance();
+            } catch (ClassNotFoundException e) {
+                // This most likely means the class does not exist
+                myRenderer = null;
+            } catch (InstantiationException e) {
+                // This most likely means that the class has no default
+                // constructor
+                myRenderer = null;
+            }
+            renderer = myRenderer;
+            LayerExporter<? extends Layer> myExporter;
+            try {
+                myExporter = (LayerExporter<? extends Layer>) pluginClassLoader.loadClass(clazz.getPackage().getName() + ".exporters." + clazz.getSimpleName() + "Exporter").newInstance();
+            } catch (ClassNotFoundException e) {
+                myExporter = null;
+            }
+            exporter = myExporter;
+        } catch (InstantiationException e) {
+            throw new RuntimeException("Exception thrown while instantiating renderer", e);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException("Access denied while instantiating renderer", e);
+        }
+        icon = IconUtils.loadImage(clazz.getClassLoader(), "org/pepsoft/worldpainter/icons/" + getClass().getSimpleName().toLowerCase() + ".png");
     }
     
     private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
@@ -141,6 +177,8 @@ public abstract class Layer implements Serializable, Comparable<Layer> {
     public final DataSize dataSize;
     public final int priority;
     private String id;
+    private transient LayerRenderer renderer;
+    private transient LayerExporter<? extends Layer> exporter;
     private transient BufferedImage icon;
     private transient char mnemonic;
 

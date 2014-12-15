@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package hdfcraft;
+package hdfcraft.renderers;
 
 /**
  *

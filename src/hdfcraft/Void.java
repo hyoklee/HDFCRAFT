@@ -14,6 +14,6 @@ public class Void extends Layer {
     }
     
     public static final Void INSTANCE = new Void();
-    
+
     private static final long serialVersionUID = 2011100801L;
 }

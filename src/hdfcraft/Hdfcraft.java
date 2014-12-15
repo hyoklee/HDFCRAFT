@@ -5,6 +5,7 @@
  */
 package hdfcraft;
 
+import java.awt.image.Raster;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -17,6 +18,7 @@ import javax.imageio.ImageIO;
 import java.util.zip.GZIPOutputStream;
 import java.awt.image.BufferedImage;
 import static hdfcraft.minecraft.Constants.*;
+import static hdfcraft.Constants.*;
 
 /**
  *
@@ -40,8 +42,41 @@ public class Hdfcraft {
 
             World2 world = new World2(World2.DEFAULT_OCEAN_SEED, tileFactory, 255);
             world.setName("HDFCRAFT");
+            final Dimension dimension = world.getDimension(0);
 
-            File levelDatFile = new File("level.dat");
+        int offsetX = 0;
+        int offsetY = 0;
+        int worldWaterLevel = 62; // HeightMapImporter.java
+
+        final int widthInTiles = 36;
+        final int heightInTiles = 18;
+        final int totalTileCount = widthInTiles * heightInTiles;
+        int tileCount = 0;
+        for (int tileX = 0; tileX < 36; tileX++) {
+            for (int tileY = 0; tileY < 18; tileY++) {
+                final Tile tile = new Tile(tileX, tileY, 255);
+                // final Tile tile = new Tile(tileX, tileY, 0);
+                for (int x = 0; x < TILE_SIZE; x++) {
+                    for (int y = 0; y < TILE_SIZE; y++) {
+                        final float level = 0.0f;
+                        final boolean void_;
+
+                        tile.setHeight(x, y, level);
+                        tile.setWaterLevel(x, y, worldWaterLevel);
+                        tileFactory.applyTheme(tile, x, y);
+                    }
+                }
+                dimension.addTile(tile);
+                tileCount++;
+                if(tileCount % 1000 == 0)
+                    System.out.print(".");
+           }
+        }
+        System.out.println("done");
+        WorldExporter exporter = new WorldExporter(world);
+       /*
+
+        File levelDatFile = new File("level.dat");
             try {
                 NBTOutputStream out = new NBTOutputStream(new GZIPOutputStream(
                         new FileOutputStream(levelDatFile)));
@@ -57,6 +92,8 @@ public class Hdfcraft {
        // }    catch (IOException ex) {
        //     Logger.getLogger(Hdfcraft.class.getName()).log(Level.SEVERE, null, ex);
         // }
+        */
     }
+
     
 }

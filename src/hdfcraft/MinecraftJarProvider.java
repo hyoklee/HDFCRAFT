@@ -4,10 +4,12 @@
  */
 package hdfcraft;
 
+import java.io.File;
+
 /**
  *
  * @author pepijn
  */
-public interface BitLayerRenderer extends LayerRenderer {
-    int getPixelColour(int x, int y, int underlyingColour, boolean value);
+public interface MinecraftJarProvider {
+    File getMinecraftJar(int biomeAlgorithm);
 }

@@ -10,6 +10,7 @@ import java.io.ObjectInputStream;
 import java.util.List;
 import java.util.Random;
 import javax.swing.Action;
+import hdfcraft.renderers.TransparentColourRenderer;
 
 /**
  *
@@ -84,7 +85,8 @@ public abstract class CustomLayer extends Layer {
     }
     
     // @Override
-    public LayerRenderer getRenderer() {
+    // public LayerRenderer getRenderer() {        return renderer;    }
+    public TransparentColourRenderer getRenderer() {
         return renderer;
     }
     
@@ -134,8 +136,8 @@ public abstract class CustomLayer extends Layer {
     private boolean hide;
     private String palette = "Custom Layers";
     private transient BufferedImage icon;
-    private transient LayerRenderer renderer;
-    
+   //  private transient LayerRenderer renderer;
+   private transient TransparentColourRenderer renderer;
     private static final int CURRENT_VERSION = 2;
     private static final Random ID_GENERATOR = new Random();
     private static final long serialVersionUID = 1L;
