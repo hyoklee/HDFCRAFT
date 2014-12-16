@@ -73,9 +73,10 @@ public class WorldExporter {
         return new File(backupsDir, worldDir.getName() + "." + DATE_FORMAT.format(new Date()));
     }
 
-    public Map<Integer, ChunkFactory.Stats> export(File baseDir, String name, File backupDir,
-                                                   ProgressReceiver progressReceiver)
-            throws IOException, ProgressReceiver.OperationCancelled {
+    public Map<Integer, ChunkFactory.Stats> export(File baseDir, String name, File backupDir)
+    //                                               ProgressReceiver progressReceiver)
+            // throws IOException, ProgressReceiver.OperationCancelled {
+            throws IOException {
         // Sanity checks
         if ((world.getVersion() != SUPPORTED_VERSION_1) && (world.getVersion() != SUPPORTED_VERSION_2)) {
             throw new IllegalArgumentException("Not a supported version: 0x" + Integer.toHexString(world.getVersion()));
@@ -120,14 +121,17 @@ public class WorldExporter {
                 if (first) {
                     first = false;
                 } else {
-                    progressReceiver.reset();
+                    // progressReceiver.reset();
                 }
-                stats.put(dimension.getDim(), exportDimension(worldDir, dimension, world.getVersion(),
-                        progressReceiver));
+                /*
+                stats.put(dimension.getDim(), exportDimension(worldDir, dimension, world.getVersion() ,
+                        progressReceiver )); */
+
             }
         } else {
+            /*
             stats.put(selectedDimension, exportDimension(worldDir, world.getDimension(selectedDimension),
-                    world.getVersion(), progressReceiver));
+                    world.getVersion(), progressReceiver)); */
         }
         
         // Log an event

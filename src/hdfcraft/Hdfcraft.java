@@ -40,8 +40,9 @@ public class Hdfcraft {
             HeightMapTileFactory tileFactory = TileFactoryFactory.createNoiseTileFactory(new Random().nextLong(),
                     Terrain.GRASS, DEFAULT_MAX_HEIGHT_2, 58, 62, false, true, 20, 1.0);
 
-            World2 world = new World2(World2.DEFAULT_OCEAN_SEED, tileFactory, 255);
+            World2 world = new World2(World2.DEFAULT_OCEAN_SEED, tileFactory, 256);
             world.setName("HDFCRAFT");
+            world.setVersion(SUPPORTED_VERSION_2);
             final Dimension dimension = world.getDimension(0);
 
         int offsetX = 0;
@@ -54,7 +55,7 @@ public class Hdfcraft {
         int tileCount = 0;
         for (int tileX = 0; tileX < 36; tileX++) {
             for (int tileY = 0; tileY < 18; tileY++) {
-                final Tile tile = new Tile(tileX, tileY, 255);
+                final Tile tile = new Tile(tileX, tileY, 256);
                 // final Tile tile = new Tile(tileX, tileY, 0);
                 for (int x = 0; x < TILE_SIZE; x++) {
                     for (int y = 0; y < TILE_SIZE; y++) {
@@ -74,7 +75,18 @@ public class Hdfcraft {
         }
         System.out.println("done");
         WorldExporter exporter = new WorldExporter(world);
-       /*
+        File baseDir = new File(".");
+        String name = "HDF";
+        File backupDir;
+        try {
+            backupDir = exporter.selectBackupDir(new File(baseDir, FileUtils.sanitiseName(name)));
+            exporter.export(baseDir, name, backupDir);
+        } catch (IOException e) {
+            throw new RuntimeException("I/O error while exporting world", e);
+        }
+
+        // exporter.export(baseDir, name, backupDir, progressReceiver);
+               /*
 
         File levelDatFile = new File("level.dat");
             try {
