@@ -123,15 +123,16 @@ public class WorldExporter {
                 } else {
                     // progressReceiver.reset();
                 }
-                /*
-                stats.put(dimension.getDim(), exportDimension(worldDir, dimension, world.getVersion() ,
-                        progressReceiver )); */
+                stats.put(dimension.getDim(), exportDimension(worldDir, dimension, world.getVersion()));
+                // stats.put(dimension.getDim(), exportDimension(worldDir, dimension, world.getVersion() ,
+                //         progressReceiver ));
 
             }
         } else {
-            /*
-            stats.put(selectedDimension, exportDimension(worldDir, world.getDimension(selectedDimension),
-                    world.getVersion(), progressReceiver)); */
+
+            stats.put(selectedDimension, exportDimension(worldDir, world.getDimension(selectedDimension), world.getVersion()));
+            // stats.put(selectedDimension, exportDimension(worldDir, world.getDimension(selectedDimension),
+            //        world.getVersion() , progressReceiver));
         }
         
         // Log an event
@@ -464,7 +465,7 @@ public class WorldExporter {
     
     protected final ExportResults exportRegion(MinecraftWorld minecraftWorld, Dimension dimension, Point regionCoords,
                                                boolean tileSelection, Map<Layer, LayerExporter<Layer>> exporters,
-                                               ChunkFactory chunkFactory, ProgressReceiver progressReceiver)
+                                               ChunkFactory chunkFactory/* , ProgressReceiver progressReceiver */ )
             throws ProgressReceiver.OperationCancelled, IOException {
         int lowestTileX = (regionCoords.x << 2) - 1;
         int highestTileX = lowestTileX + 5;
@@ -504,29 +505,29 @@ public class WorldExporter {
         // First pass. Create terrain and apply layers which don't need access
         // to neighbouring chunks
         ExportResults exportResults = firstPass(minecraftWorld, dimension, regionCoords, tiles, tileSelection,
-                exporters, chunkFactory, (progressReceiver != null) ?
-                        new SubProgressReceiver(progressReceiver, 0.0f, 0.45f) : null);
+                exporters, chunkFactory, /* (progressReceiver != null) ?
+                        new SubProgressReceiver(progressReceiver, 0.0f, 0.45f) : */ null);
 
         if (exportResults.chunksGenerated) {
             // Second pass. Apply layers which need information from or apply
             // changes to neighbouring chunks
             long t2 = System.currentTimeMillis();
             List<Fixup> myFixups = secondPass(secondaryPassLayers, minimumLayers, dimension, minecraftWorld,
-                    exporters, tiles.values(), regionCoords, (progressReceiver != null) ?
-                            new SubProgressReceiver(progressReceiver, 0.45f, 0.1f) : null);
+                    exporters, tiles.values(), regionCoords, /* (progressReceiver != null) ?
+                            new SubProgressReceiver(progressReceiver, 0.45f, 0.1f) : */ null);
             if ((myFixups != null) && (! myFixups.isEmpty())) {
                 exportResults.fixups = myFixups;
             }
 
             // Post processing. Fix covered grass blocks, things like that
             long t3 = System.currentTimeMillis();
-            postProcess(minecraftWorld, regionCoords, (progressReceiver != null) ?
-                    new SubProgressReceiver(progressReceiver, 0.55f, 0.1f) : null);
+            postProcess(minecraftWorld, regionCoords,/* (progressReceiver != null) ?
+                    new SubProgressReceiver(progressReceiver, 0.55f, 0.1f) : */  null);
 
             // Third pass. Calculate lighting
             long t4 = System.currentTimeMillis();
-            lightingPass(minecraftWorld, regionCoords, (progressReceiver != null) ?
-                    new SubProgressReceiver(progressReceiver, 0.65f, 0.35f) : null);
+            lightingPass(minecraftWorld, regionCoords,/* (progressReceiver != null) ?
+                    new SubProgressReceiver(progressReceiver, 0.65f, 0.35f) : */  null);
             long t5 = System.currentTimeMillis();
             if ("true".equalsIgnoreCase(System.getProperty("hdfcraft.worldpainter.devMode"))) {
                 String timingMessage = (t2 - t1) + ", " + (t3 - t2) + ", " + (t4 - t3) + ", " + (t5 - t4) + ", "
@@ -638,12 +639,13 @@ public class WorldExporter {
         }
     }
 
-    private ChunkFactory.Stats exportDimension(final File worldDir, final Dimension dimension, final int version,
-                                               ProgressReceiver progressReceiver)
-            throws ProgressReceiver.OperationCancelled, IOException {
-        if (progressReceiver != null) {
-            progressReceiver.setMessage("exporting " + dimension.getName() + " dimension");
-        }
+    private ChunkFactory.Stats exportDimension(final File worldDir, final Dimension dimension, final int version)
+                                               // ProgressReceiver progressReceiver)
+            // throws ProgressReceiver.OperationCancelled, IOException {
+            throws IOException {
+      //  if (progressReceiver != null) {
+      //      progressReceiver.setMessage("exporting " + dimension.getName() + " dimension");
+      //   }
         
         long start = System.currentTimeMillis();
         
@@ -810,8 +812,9 @@ public class WorldExporter {
 
             final Map<Point, List<Fixup>> fixups = new HashMap<Point, List<Fixup>>();
             ExecutorService executor = Executors.newFixedThreadPool(threads);
+            /*
             final ParallelProgressManager parallelProgressManager = (progressReceiver != null) ?
-                    new ParallelProgressManager(progressReceiver, regions.size()) : null;
+                    new ParallelProgressManager(progressReceiver, regions.size()) : null; */
             try {
                 // Export each individual region
                 for (Point region: sortedRegions) {
@@ -819,6 +822,7 @@ public class WorldExporter {
                     executor.execute(new Runnable() {
                         @Override
                         public void run() {
+                            /*
                             ProgressReceiver progressReceiver = (parallelProgressManager != null) ?
                                     parallelProgressManager.createProgressReceiver() : null;
                             if (progressReceiver != null) {
@@ -828,15 +832,16 @@ public class WorldExporter {
                                     return;
                                 }
                             }
+                            */
                             try {
                                 WorldRegion minecraftWorld = new WorldRegion(regionCoords.x, regionCoords.y,
                                         dimension.getMaxHeight(), version);
                                 ExportResults exportResults = null;
                                 try {
                                     exportResults = exportRegion(minecraftWorld, dimension, regionCoords,
-                                            tileSelection, exporters, chunkFactory,
-                                            (progressReceiver != null) ?
-                                                    new SubProgressReceiver(progressReceiver, 0.0f, 0.9f) : null);
+                                            tileSelection, exporters, chunkFactory /* ,
+                                              (progressReceiver != null) ?
+                                                    new SubProgressReceiver(progressReceiver, 0.0f, 0.9f) : null*/ );
                                     if (logger.isLoggable(java.util.logging.Level.FINE)) {
                                         logger.fine("Generated region " + regionCoords.x + "," + regionCoords.y);
                                     }
@@ -877,8 +882,8 @@ public class WorldExporter {
                                             }
                                         }
                                         if (! myFixups.isEmpty()) {
-                                            performFixups(worldDir, dimension, version, (progressReceiver != null) ?
-                                                    new SubProgressReceiver(progressReceiver, 0.9f, 0.1f) : null,
+                                            performFixups(worldDir, dimension, version, /* (progressReceiver != null) ?
+                                                    new SubProgressReceiver(progressReceiver, 0.9f, 0.1f) : null , */
                                                     myFixups);
                                         }
                                     } finally {
@@ -886,11 +891,13 @@ public class WorldExporter {
                                     }
                                 }
                             } catch (Throwable t) {
+                                /*
                                 if (progressReceiver != null) {
                                     progressReceiver.exceptionThrown(t);
                                 } else {
                                     logger.log(java.util.logging.Level.SEVERE, "Exception while exporting region", t);
                                 }
+                                */
                             }
                         }
                     });
@@ -908,11 +915,13 @@ public class WorldExporter {
             // performing fixups and thread B added new ones and then quit
             synchronized (fixups) {
                 if (! fixups.isEmpty()) {
+                    /*
                     if (progressReceiver != null) {
                         progressReceiver.setMessage("doing remaining fixups for " + dimension.getName());
                         progressReceiver.reset();
                     }
-                    performFixups(worldDir, dimension, version, progressReceiver, fixups);
+                    */
+                    performFixups(worldDir, dimension, version, /* progressReceiver,*/  fixups);
                 }
             }
             
@@ -923,10 +932,12 @@ public class WorldExporter {
                 collectedStats.size += file.length();
             }
             collectedStats.time = System.currentTimeMillis() - start;
-            
+            /*
             if (progressReceiver != null) {
                 progressReceiver.setProgress(1.0f);
             }
+            */
+
         } finally {
 
             // Undo any changes we made (such as applying any combined layers)
@@ -962,8 +973,8 @@ public class WorldExporter {
     }
 
     protected void performFixups(final File worldDir, final Dimension dimension, final int version,
-                                 final ProgressReceiver progressReceiver, final Map<Point, List<Fixup>> fixups)
-            throws OperationCancelled {
+                                 /* final ProgressReceiver progressReceiver,*/ final Map<Point, List<Fixup>> fixups)
+           /* throws OperationCancelled */ {
         long start = System.currentTimeMillis();
         // Make sure to honour the read-only layer:
         MinecraftWorldImpl minecraftWorld = new MinecraftWorldImpl(worldDir, dimension, version, false, true, 512);
@@ -982,9 +993,11 @@ public class WorldExporter {
             }
             // Might affect performance of other threads also performing fixups, but should not cause errors
             minecraftWorld.flush();
+            /*
             if (progressReceiver != null) {
                 progressReceiver.setProgress((float) ++count / total);
             }
+            */
         }
         if (logger.isLoggable(java.util.logging.Level.FINER)) {
             logger.finer("Fixups for " + fixups.size() + " regions took " + (System.currentTimeMillis() - start)

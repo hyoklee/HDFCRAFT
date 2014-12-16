@@ -43,7 +43,12 @@ public class Hdfcraft {
             World2 world = new World2(World2.DEFAULT_OCEAN_SEED, tileFactory, 256);
             world.setName("HDFCRAFT");
             world.setVersion(SUPPORTED_VERSION_2);
-            final Dimension dimension = world.getDimension(0);
+            world.setGameType(0);
+            Generator generator = Generator.values()[0];
+            // Dimension dim0 = world.getDimension(0);
+            world.setGenerator(generator);
+
+        final Dimension dimension = world.getDimension(0);
 
         int offsetX = 0;
         int offsetY = 0;
