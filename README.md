@@ -1,21 +1,18 @@
-.. image:: https://travis-ci.org/hyoklee/HDFCRAFT.svg?branch=master
-    :target: https://travis-ci.org/hyoklee/HDFCRAFT
-
 HDFCRAFT
 ========
 
-Project that creates MINECRAFT maps from NASA Earth HDF Data
+Project that creates MINECRAFT maps from NASA Earth Science Data
 
 Overview
 ========
 
-HDFCRAFT is a set of tools and web services that converts NASA HDF-EOS data
+HDFCRAFT is a set of tools and web services that convert NASA HDF-EOS data
 into MINECRAFT maps.
 
 Installation
 ============
 
-To install, download HDFCRAFT.war file and put it in an Apache Tomcat.
+Build src package with IntelliJ.
 
 Documentation
 =============
