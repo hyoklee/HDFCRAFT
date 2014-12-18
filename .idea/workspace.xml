@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8578b1b-593a-4784-b0f4-b100d0f3a374" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\hyoklee\Documents\GitHub\HDFCRAFT\level.dat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HDFCRAFT.iml" afterPath="$PROJECT_DIR$/HDFCRAFT.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hdfcraft/Hdfcraft.java" afterPath="$PROJECT_DIR$/src/hdfcraft/Hdfcraft.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hdfcraft/Populate.java" afterPath="$PROJECT_DIR$/src/hdfcraft/Populate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HDFCRAFT.iws" />
@@ -34,101 +33,103 @@
       <file leaf-file-name="Hdfcraft.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hdfcraft/Hdfcraft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.4542773" vertical-offset="630" max-vertical-offset="2686">
-              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.53097343" vertical-offset="126" max-vertical-offset="2261">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TileFactoryFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/TileFactoryFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="617" max-vertical-offset="1020">
+              <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Terrain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/Terrain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2450" max-vertical-offset="22270">
+              <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/TreeMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="31072" max-vertical-offset="47141">
+              <caret line="2060" column="0" selection-start-line="2060" selection-start-column="0" selection-end-line="2060" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerlinNoise.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/PerlinNoise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="2312">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImprovedNoise.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/ImprovedNoise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="1190">
+              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleTheme.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/SimpleTheme.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4352" max-vertical-offset="4760">
+              <caret line="299" column="40" selection-start-line="299" selection-start-column="40" selection-end-line="299" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dimension.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/Dimension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27183">
+              <caret line="816" column="9" selection-start-line="816" selection-start-column="9" selection-end-line="816" selection-end-column="9" />
               <folding>
-                <element signature="e#0#5650#0" expanded="true" />
+                <element signature="e#48979#48980#0" expanded="true" />
+                <element signature="e#49007#49008#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/Tile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.576923" vertical-offset="635" max-vertical-offset="21930">
+              <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+              <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeightMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hdfcraft/HeightMap.java">
+      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hdfcraft/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="527">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NativeMethodAccessorImpl.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="391">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetcdfFile.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/nc2/NetcdfFile.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="58.72" vertical-offset="1553" max-vertical-offset="4658">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Variable.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/nc2/Variable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="4590">
-              <caret line="6" column="97" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Netcdf.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/netcdf/Netcdf.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8" vertical-offset="65" max-vertical-offset="459">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetcdfFile.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/netcdf/NetcdfFile.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="163.64" vertical-offset="4176" max-vertical-offset="5202">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="World2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hdfcraft/World2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="8551">
-              <caret line="145" column="41" selection-start-line="145" selection-start-column="41" selection-end-line="145" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Level.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4615383" vertical-offset="2935" max-vertical-offset="4845">
-              <caret line="252" column="32" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorldExporter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hdfcraft/WorldExporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3461537" vertical-offset="1621" max-vertical-offset="17493">
-              <caret line="142" column="55" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="966" max-vertical-offset="1530">
+              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -147,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/hdfcraft/EventLogger.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/MinecraftJarProvider.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/FrostExporter.java" />
         <option value="$PROJECT_DIR$/src/ResourcesExporter.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/AbstractMinecraft1_1BiomeScheme.java" />
@@ -171,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/hdfcraft/App.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/CombinedLayer.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/CustomLayer.java" />
-        <option value="$PROJECT_DIR$/src/hdfcraft/Populate.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/WorldPainterChunkFactory.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/ParallelProgressManager.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/WorldRegion.java" />
@@ -197,6 +195,9 @@
         <option value="$PROJECT_DIR$/src/hdfcraft/renderers/GardenCategoryRenderer.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkImpl2.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/WorldExporter.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Populate.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Tile.java" />
+        <option value="$PROJECT_DIR$/src/hdfcraft/Constants.java" />
         <option value="$PROJECT_DIR$/src/hdfcraft/Hdfcraft.java" />
       </list>
     </option>
@@ -301,6 +302,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hdfcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HDFCRAFT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HDFCRAFT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hdfcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HDFCRAFT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HDFCRAFT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hdfcraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heightMaps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,6 +568,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298893" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -539,7 +585,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -607,8 +652,14 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hdfcraft/TileFactoryFactory.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -616,425 +667,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60589814" vertical-offset="10127" max-vertical-offset="14756">
-          <caret line="609" column="8" selection-start-line="609" selection-start-column="8" selection-end-line="609" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#29205#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
-            <element signature="e#2015#2016#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2474#2475#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2581#2582#0" expanded="true" />
-            <element signature="e#2629#2630#0" expanded="true" />
-            <element signature="e#2682#2683#0" expanded="true" />
-            <element signature="e#2720#2721#0" expanded="true" />
-            <element signature="e#2793#2794#0" expanded="true" />
-            <element signature="e#2847#2848#0" expanded="true" />
-            <element signature="e#2899#2900#0" expanded="true" />
-            <element signature="e#2936#2937#0" expanded="true" />
-            <element signature="e#3007#3008#0" expanded="true" />
-            <element signature="e#3059#3060#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
-            <element signature="e#3148#3149#0" expanded="true" />
-            <element signature="e#3219#3220#0" expanded="true" />
-            <element signature="e#3271#3272#0" expanded="true" />
-            <element signature="e#3317#3318#0" expanded="true" />
-            <element signature="e#3347#3348#0" expanded="true" />
-            <element signature="e#3404#3405#0" expanded="true" />
-            <element signature="e#3441#3442#0" expanded="true" />
-            <element signature="e#3488#3489#0" expanded="true" />
-            <element signature="e#3518#3519#0" expanded="true" />
-            <element signature="e#3578#3579#0" expanded="true" />
-            <element signature="e#3616#3617#0" expanded="true" />
-            <element signature="e#3664#3665#0" expanded="true" />
-            <element signature="e#3695#3696#0" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
-            <element signature="e#3797#3798#0" expanded="true" />
-            <element signature="e#3849#3850#0" expanded="true" />
-            <element signature="e#3883#3884#0" expanded="true" />
-            <element signature="e#3951#3952#0" expanded="true" />
-            <element signature="e#3997#3998#0" expanded="true" />
-            <element signature="e#4045#4046#0" expanded="true" />
-            <element signature="e#4079#4080#0" expanded="true" />
-            <element signature="e#4143#4144#0" expanded="true" />
-            <element signature="e#4189#4190#0" expanded="true" />
-            <element signature="e#4236#4237#0" expanded="true" />
-            <element signature="e#4266#4267#0" expanded="true" />
-            <element signature="e#4326#4327#0" expanded="true" />
-            <element signature="e#4364#4365#0" expanded="true" />
-            <element signature="e#4425#4426#0" expanded="true" />
-            <element signature="e#4469#4470#0" expanded="true" />
-            <element signature="e#4685#4686#0" expanded="true" />
-            <element signature="e#4730#4731#0" expanded="true" />
-            <element signature="e#4940#4941#0" expanded="true" />
-            <element signature="e#4974#4975#0" expanded="true" />
-            <element signature="e#5357#5358#0" expanded="true" />
-            <element signature="e#5397#5398#0" expanded="true" />
-            <element signature="e#5473#5474#0" expanded="true" />
-            <element signature="e#5531#5532#0" expanded="true" />
-            <element signature="e#5600#5601#0" expanded="true" />
-            <element signature="e#5636#5637#0" expanded="true" />
-            <element signature="e#5725#5726#0" expanded="true" />
-            <element signature="e#5781#5782#0" expanded="true" />
-            <element signature="e#6344#6345#0" expanded="true" />
-            <element signature="e#6381#6382#0" expanded="true" />
-            <element signature="e#6462#6463#0" expanded="true" />
-            <element signature="e#6514#6515#0" expanded="true" />
-            <element signature="e#6562#6563#0" expanded="true" />
-            <element signature="e#6596#6597#0" expanded="true" />
-            <element signature="e#6660#6661#0" expanded="true" />
-            <element signature="e#6706#6707#0" expanded="true" />
-            <element signature="e#6766#6767#0" expanded="true" />
-            <element signature="e#6811#6812#0" expanded="true" />
-            <element signature="e#7021#7022#0" expanded="true" />
-            <element signature="e#7059#7060#0" expanded="true" />
-            <element signature="e#7135#7136#0" expanded="true" />
-            <element signature="e#7189#7190#0" expanded="true" />
-            <element signature="e#7250#7251#0" expanded="true" />
-            <element signature="e#7297#7298#0" expanded="true" />
-            <element signature="e#7521#7522#0" expanded="true" />
-            <element signature="e#7566#7567#0" expanded="true" />
-            <element signature="e#7782#7783#0" expanded="true" />
-            <element signature="e#7823#7824#0" expanded="true" />
-            <element signature="e#8017#8018#0" expanded="true" />
-            <element signature="e#8055#8056#0" expanded="true" />
-            <element signature="e#8127#8128#0" expanded="true" />
-            <element signature="e#8181#8182#0" expanded="true" />
-            <element signature="e#8547#8548#0" expanded="true" />
-            <element signature="e#8586#8587#0" expanded="true" />
-            <element signature="e#8660#8661#0" expanded="true" />
-            <element signature="e#8716#8717#0" expanded="true" />
-            <element signature="e#8782#8783#0" expanded="true" />
-            <element signature="e#8831#8832#0" expanded="true" />
-            <element signature="e#9074#9075#0" expanded="true" />
-            <element signature="e#9126#9127#0" expanded="true" />
-            <element signature="e#9361#9362#0" expanded="true" />
-            <element signature="e#9396#9397#0" expanded="true" />
-            <element signature="e#9462#9463#0" expanded="true" />
-            <element signature="e#9510#9511#0" expanded="true" />
-            <element signature="e#9561#9562#0" expanded="true" />
-            <element signature="e#9595#9596#0" expanded="true" />
-            <element signature="e#9663#9664#0" expanded="true" />
-            <element signature="e#9709#9710#0" expanded="true" />
-            <element signature="e#9756#9757#0" expanded="true" />
-            <element signature="e#9789#9790#0" expanded="true" />
-            <element signature="e#9851#9852#0" expanded="true" />
-            <element signature="e#9895#9896#0" expanded="true" />
-            <element signature="e#9968#9969#0" expanded="true" />
-            <element signature="e#10021#10022#0" expanded="true" />
-            <element signature="e#10267#10268#0" expanded="true" />
-            <element signature="e#10304#10305#0" expanded="true" />
-            <element signature="e#10378#10379#0" expanded="true" />
-            <element signature="e#10430#10431#0" expanded="true" />
-            <element signature="e#10483#10484#0" expanded="true" />
-            <element signature="e#10522#10523#0" expanded="true" />
-            <element signature="e#10596#10597#0" expanded="true" />
-            <element signature="e#10652#10653#0" expanded="true" />
-            <element signature="e#10703#10704#0" expanded="true" />
-            <element signature="e#10738#10739#0" expanded="true" />
-            <element signature="e#10806#10807#0" expanded="true" />
-            <element signature="e#10854#10855#0" expanded="true" />
-            <element signature="e#10906#10907#0" expanded="true" />
-            <element signature="e#10941#10942#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11058#11059#0" expanded="true" />
-            <element signature="e#11121#11122#0" expanded="true" />
-            <element signature="e#11162#11163#0" expanded="true" />
-            <element signature="e#11372#11373#0" expanded="true" />
-            <element signature="e#11426#11427#0" expanded="true" />
-            <element signature="e#11828#11829#0" expanded="true" />
-            <element signature="e#11867#11868#0" expanded="true" />
-            <element signature="e#11941#11942#0" expanded="true" />
-            <element signature="e#11997#11998#0" expanded="true" />
-            <element signature="e#12060#12061#0" expanded="true" />
-            <element signature="e#12095#12096#0" expanded="true" />
-            <element signature="e#12162#12163#0" expanded="true" />
-            <element signature="e#12199#12200#0" expanded="true" />
-            <element signature="e#12479#12480#0" expanded="true" />
-            <element signature="e#12525#12526#0" expanded="true" />
-            <element signature="e#12739#12740#0" expanded="true" />
-            <element signature="e#12776#12777#0" expanded="true" />
-            <element signature="e#12847#12848#0" expanded="true" />
-            <element signature="e#12899#12900#0" expanded="true" />
-            <element signature="e#12953#12954#0" expanded="true" />
-            <element signature="e#12992#12993#0" expanded="true" />
-            <element signature="e#13067#13068#0" expanded="true" />
-            <element signature="e#13123#13124#0" expanded="true" />
-            <element signature="e#13180#13181#0" expanded="true" />
-            <element signature="e#13222#13223#0" expanded="true" />
-            <element signature="e#13416#13417#0" expanded="true" />
-            <element signature="e#13460#13461#0" expanded="true" />
-            <element signature="e#13651#13652#0" expanded="true" />
-            <element signature="e#13699#13700#0" expanded="true" />
-            <element signature="e#13901#13902#0" expanded="true" />
-            <element signature="e#13942#13943#0" expanded="true" />
-            <element signature="e#14011#14012#0" expanded="true" />
-            <element signature="e#14071#14072#0" expanded="true" />
-            <element signature="e#14116#14117#0" expanded="true" />
-            <element signature="e#14157#14158#0" expanded="true" />
-            <element signature="e#14226#14227#0" expanded="true" />
-            <element signature="e#14286#14287#0" expanded="true" />
-            <element signature="e#14332#14333#0" expanded="true" />
-            <element signature="e#14371#14372#0" expanded="true" />
-            <element signature="e#14438#14439#0" expanded="true" />
-            <element signature="e#14494#14495#0" expanded="true" />
-            <element signature="e#14533#14534#0" expanded="true" />
-            <element signature="e#14571#14572#0" expanded="true" />
-            <element signature="e#14630#14631#0" expanded="true" />
-            <element signature="e#14684#14685#0" expanded="true" />
-            <element signature="e#14734#14735#0" expanded="true" />
-            <element signature="e#14780#14781#0" expanded="true" />
-            <element signature="e#14976#14977#0" expanded="true" />
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15214#15215#0" expanded="true" />
-            <element signature="e#15251#15252#0" expanded="true" />
-            <element signature="e#15324#15325#0" expanded="true" />
-            <element signature="e#15376#15377#0" expanded="true" />
-            <element signature="e#15419#15420#0" expanded="true" />
-            <element signature="e#15453#15454#0" expanded="true" />
-            <element signature="e#15512#15513#0" expanded="true" />
-            <element signature="e#15558#15559#0" expanded="true" />
-            <element signature="e#16565#16597#0" expanded="true" />
-            <element signature="e#21055#21070#0" expanded="true" />
-            <element signature="e#24106#24107#0" expanded="true" />
-            <element signature="e#24137#24138#0" expanded="true" />
-            <element signature="e#24212#24213#0" expanded="true" />
-            <element signature="e#24261#24262#0" expanded="true" />
-            <element signature="e#24919#24920#0" expanded="true" />
-            <element signature="e#24976#24977#0" expanded="true" />
-            <element signature="e#25371#25664#0" expanded="true" />
-            <element signature="e#25653#25654#0" expanded="true" />
-            <element signature="e#26885#26900#0" expanded="true" />
-            <element signature="e#27985#27994#0" expanded="true" />
-            <element signature="e#28056#28069#0" expanded="true" />
-            <element signature="e#28135#28150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/GardenExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1761658" vertical-offset="0" max-vertical-offset="1309">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8834197" vertical-offset="341" max-vertical-offset="782">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/LightingCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31903484" vertical-offset="0" max-vertical-offset="5083">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5647668" vertical-offset="3" max-vertical-offset="4692">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BorderChunkFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.572327" vertical-offset="107" max-vertical-offset="2431">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ReadOnly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66062176" vertical-offset="0" max-vertical-offset="386">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BedrockWallChunk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37421384" vertical-offset="0" max-vertical-offset="799">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/RODelegatingTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30829015" vertical-offset="0" max-vertical-offset="3332">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/RODelegatingDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5699482" vertical-offset="1" max-vertical-offset="8398">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CombinedLayerExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3207547" vertical-offset="187" max-vertical-offset="4811">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/LayerContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44041452" vertical-offset="0" max-vertical-offset="386">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CustomLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46373057" vertical-offset="1028" max-vertical-offset="2142">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CombinedLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7111111" vertical-offset="135" max-vertical-offset="3298">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4631#4632#0" expanded="true" />
-            <element signature="e#4675#4676#0" expanded="true" />
-            <element signature="e#4727#4728#0" expanded="true" />
-            <element signature="e#4772#4773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Populate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/WorldPainterChunkFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23584905" vertical-offset="146" max-vertical-offset="3621">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ParallelProgressManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3842">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/RegionFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6613">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/WorldRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6257862" vertical-offset="277" max-vertical-offset="6392">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/HashList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4794">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/MinecraftWorldImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="402" max-vertical-offset="11968">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Minecraft1_7LargeBiomeScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42465752" vertical-offset="15" max-vertical-offset="969">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Minecraft1_1BiomeScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36438355" vertical-offset="3" max-vertical-offset="476">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/renderers/TransparentColourRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26984128" vertical-offset="0" max-vertical-offset="595">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Minecraft1_3LargeBiomeScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33150685" vertical-offset="15" max-vertical-offset="1020">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Minecraft1_2BiomeScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29041097" vertical-offset="30" max-vertical-offset="646">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/minecraft/v1_7_3/BiomeSky.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -1119,82 +751,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46575344" vertical-offset="51" max-vertical-offset="8670">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.230769" vertical-offset="534502" max-vertical-offset="542725">
           <caret line="31460" column="25" selection-start-line="31460" selection-start-column="25" selection-end-line="31460" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/netcdf/Netcdf.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8" vertical-offset="65" max-vertical-offset="459">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/netcdf/NetcdfFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="163.64" vertical-offset="4176" max-vertical-offset="5202">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="5219">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/nc2/NetcdfFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="58.72" vertical-offset="1553" max-vertical-offset="4658">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="4675">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/netcdfAll-4.5.jar!/ucar/nc2/Variable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="4590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="4607">
           <caret line="6" column="97" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="391">
+        <state vertical-scroll-proportion="0.7265416" vertical-offset="35" max-vertical-offset="408">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/WorldExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3461537" vertical-offset="1621" max-vertical-offset="17493">
-          <caret line="142" column="55" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/World2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="9792">
-          <caret line="145" column="41" selection-start-line="145" selection-start-column="41" selection-end-line="145" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4615383" vertical-offset="2935" max-vertical-offset="4845">
-          <caret line="252" column="32" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,14 +801,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Hdfcraft.java">
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/CustomBiome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4542773" vertical-offset="630" max-vertical-offset="2686">
-          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="884">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/River.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SwampLand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="850">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SwampLandExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="969">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/heightMaps/NoiseHeightMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1818" max-vertical-offset="2329">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Seed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5173" max-vertical-offset="5525">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="391">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TileRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1778" max-vertical-offset="6545">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Populate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="408">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/noiselevels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16750" max-vertical-offset="17102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/ChunkImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="8534">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/MinecraftWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1275">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BedrockWallChunk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="680">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/BorderChunkFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="2193">
+          <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4284" max-vertical-offset="6171">
+          <caret line="252" column="32" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/heightMaps/CombiningHeightMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/World2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8585">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/RODelegatingDimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4586" max-vertical-offset="8245">
+          <caret line="438" column="16" selection-start-line="438" selection-start-column="16" selection-end-line="438" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/WorldExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3632" max-vertical-offset="17493">
+          <caret line="266" column="18" selection-start-line="266" selection-start-column="18" selection-end-line="266" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/minecraft/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14535">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="966" max-vertical-offset="1530">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.576923" vertical-offset="635" max-vertical-offset="21930">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
           <folding>
-            <element signature="e#0#5650#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/TileFactoryFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="617" max-vertical-offset="1020">
+          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Terrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2450" max-vertical-offset="22270">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/SimpleTheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4352" max-vertical-offset="4760">
+          <caret line="299" column="40" selection-start-line="299" selection-start-column="40" selection-end-line="299" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="31072" max-vertical-offset="47141">
+          <caret line="2060" column="0" selection-start-line="2060" selection-start-column="0" selection-end-line="2060" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/PerlinNoise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="2312">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/ImprovedNoise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="1190">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27183">
+          <caret line="816" column="9" selection-start-line="816" selection-start-column="9" selection-end-line="816" selection-end-column="9" />
+          <folding>
+            <element signature="e#48979#48980#0" expanded="true" />
+            <element signature="e#49007#49008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hdfcraft/Hdfcraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53097343" vertical-offset="126" max-vertical-offset="2261">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

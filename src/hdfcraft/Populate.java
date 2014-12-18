@@ -11,7 +11,9 @@ package hdfcraft;
  */
 public class Populate extends Layer {
     public Populate() {
-        super("Populate", "Let Minecraft populate the land with vegetation, snow, resources (coal, ores, etc.) and water and lava pools", Layer.DataSize.BIT_PER_CHUNK, 0);
+        super("Populate",
+                "Let Minecraft populate the land with vegetation, snow, resources (coal, ores, etc.) and water and lava pools",
+                Layer.DataSize.BIT_PER_CHUNK, 0);
     }
 
     public static final Populate INSTANCE = new Populate();
