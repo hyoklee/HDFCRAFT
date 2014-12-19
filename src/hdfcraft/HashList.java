@@ -11,6 +11,7 @@ import java.util.ListIterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
+import java.util.Spliterator;
 
 /**
  * A combination of the List and Set interfaces. A List which can only contain
@@ -22,8 +23,13 @@ import java.util.Set;
  * while iterating over it, the results are unspecified.
  *
  * @author pepijn
+ * @param <E>
  */
 public class HashList<E> extends AbstractList<E> implements Set<E> {
+    @Override
+    public Spliterator<E> spliterator() {
+        return HashList.super.spliterator();
+    }
     public HashList() {
         anchor = new Element(null);
         anchor.previous = anchor;
