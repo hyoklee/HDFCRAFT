@@ -73,22 +73,20 @@
                     System.out.println("Failed to close " + filename);
                 }
             }
-                // File file = new File("test.hdf");
-                // image = ImageIO.read(file);
-                // HeightMapTileFactory tileFactory = TileFactoryFactory.createNoiseTileFactory(new Random().nextLong(),
-               HeightMapTileFactory tileFactory = TileFactoryFactory.createFlatTileFactory(new Random().nextLong(),
-                        Terrain.GRASS, DEFAULT_MAX_HEIGHT_2, 58, 62, false, true);
+            // HeightMapTileFactory tileFactory = TileFactoryFactory.createNoiseTileFactory(new Random().nextLong(),
+           HeightMapTileFactory tileFactory = TileFactoryFactory.createFlatTileFactory(new Random().nextLong(),
+                    Terrain.GRASS, DEFAULT_MAX_HEIGHT_2, 58, 62, false, true);
 
-                World2 world = new World2(World2.DEFAULT_OCEAN_SEED, tileFactory, 256);
-                world.setName("HDF");
-                world.setVersion(SUPPORTED_VERSION_2);
-                // world.setSpawnPoint(new Point(308, 53));
-                world.setSpawnPoint(new Point(95, 144));
+            World2 world = new World2(World2.DEFAULT_OCEAN_SEED, tileFactory, 256);
+            world.setName("HDF");
+            world.setVersion(SUPPORTED_VERSION_2);
+            // world.setSpawnPoint(new Point(308, 53));
+            world.setSpawnPoint(new Point(95, 144));
 
-            world.setGameType(0);
-                Generator generator = Generator.values()[1];
-                // Dimension dim0 = world.getDimension(0);
-                world.setGenerator(generator);
+            world.setGameType(1);
+            Generator generator = Generator.values()[1];
+            // Dimension dim0 = world.getDimension(0);
+            world.setGenerator(generator);
 
             final Dimension dimension = world.getDimension(0);
 
@@ -133,7 +131,8 @@
              }
             System.out.println("done");
             WorldExporter exporter = new WorldExporter(world);
-            // File baseDir = new File(".");
+            // Change hyoklee to your user'name.
+            // Mac version
             File baseDir = new File("C:\\Users\\hyoklee\\AppData\\Roaming\\.minecraft\\saves");
             String name = "Demo_World";
             File backupDir;
