@@ -12,7 +12,7 @@ into MINECRAFT maps.
 Installation
 ============
 
-Build src package with IntelliJ.
+Build src package with IntelliJ or Eclipse.
 
 Documentation
 =============
