@@ -9,22 +9,13 @@
     import java.io.File;
     import java.io.IOException;
     import java.util.Random;
-    import java.util.List;
     import static hdfcraft.minecraft.Constants.*;
     import static hdfcraft.Constants.*;
 
     import ucar.ma2.ArrayFloat;
-    import ucar.multiarray.ArrayMultiArray;
-    import ucar.multiarray.IndexIterator;
-    import ucar.multiarray.MultiArray;
-    import ucar.multiarray.MultiArrayImpl;
-    import ucar.netcdf.Attribute;
-    import ucar.netcdf.Netcdf;
-    import ucar.netcdf.NetcdfFile;
     import ucar.nc2.dataset.NetcdfDataset;
     import ucar.nc2.Variable;
-    import ucar.netcdf.VariableIterator;
-    import ucar.nc2.*;
+
 
 
     /**
@@ -134,7 +125,7 @@
             // Change hyoklee to your user'name.
             // Mac version
             File baseDir = new File("C:\\Users\\hyoklee\\AppData\\Roaming\\.minecraft\\saves");
-            String name = "Demo_World";
+            String name = filename;
             File backupDir;
             try {
                 backupDir = exporter.selectBackupDir(new File(baseDir, FileUtils.sanitiseName(name)));
