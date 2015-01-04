@@ -36,3 +36,9 @@ Icon
 .Spotlight-V100
 .Trashes
 /dist/
+
+# JAVA class files
+*.class
+
+# Eclipse build directory
+/build/
