@@ -23,5 +23,5 @@ For documentation, see http://hyoklee.github.io/HDFCRAFT
 Examples
 ========
 
-Conversion examples can be found inside the examples/ subdirectory.
+Conversion examples can be found inside the Java source codes.
 
